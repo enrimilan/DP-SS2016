@@ -71,4 +71,18 @@ public class Utils {
         System.out.println("Parsed " + earthquakes.size() + " earthquakes");
         return earthquakes;
     }
+
+    public static double calculateDistanceBetween(double lat1, double lng1, double lat2, double lng2) {
+        //thx to stackoverflow http://stackoverflow.com/questions/837872/calculate-distance-in-meters-when-you-know-longitude-and-latitude-in-java
+        double earthRadius = 6371000;
+        double dLat = Math.toRadians(lat2-lat1);
+        double dLng = Math.toRadians(lng2-lng1);
+        double a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) *
+                        Math.sin(dLng/2) * Math.sin(dLng/2);
+        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        double dist = earthRadius * c;
+
+        return dist;
+    }
 }
