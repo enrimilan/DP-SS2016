@@ -35,7 +35,7 @@
         });
     }
 
-    document.addVolcanoCircle = function addVolcanoCircle(x, y) {
+    document.addVolcanoCircle = function addVolcanoCircle(x, y, maxDist) {
         var latLng = {lat: x, lng: y};
         var circle = new google.maps.Circle({
             strokeColor: '#FF0000',
@@ -45,7 +45,7 @@
             fillOpacity: 0.35,
             map: document.map,
             center: latLng,
-            radius: 15000
+            radius: maxDist
         });
     }
 

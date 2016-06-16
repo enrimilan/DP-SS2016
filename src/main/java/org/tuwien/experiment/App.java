@@ -22,14 +22,16 @@ public class App extends Application {
     private static ArrayList<Earthquake> earthquakes;
     private static ArrayList<Correlation> correlations;
     private static Button resultButton, volcanoesButton, earthquakesButton;
+    private static double maxDist;
 
     public static void main(String[] args) {
-        if(args.length != 2) {
-            throw new IllegalArgumentException("USAGE: experiment VOLCANOES_FILE EARTHQUAKES_FILE");
+        if(args.length != 3) {
+            throw new IllegalArgumentException("USAGE: experiment VOLCANOES_FILE EARTHQUAKES_FILE MAX_VOLCANO_DIAMETER");
         }
         volcanoes = Utils.parseVolcanoes(args[0]);
         earthquakes = Utils.parseEarthquakes(args[1]);
-        correlations = checkForCorrelationBetween(volcanoes, earthquakes, 15000);
+        maxDist = Double.parseDouble(args[2]);
+        correlations = checkForCorrelationBetween(volcanoes, earthquakes, maxDist);
         Application.launch(args);
     }
 
@@ -92,7 +94,7 @@ public class App extends Application {
         volcanoesButton.setDisable(true);
         earthquakesButton.setDisable(true);
         for(Correlation c : correlations) {
-            webEngine.executeScript("document.addVolcanoCircle("+c.getVolcano().getLatitude()+", "+c.getVolcano().getLongitude()+")");
+            webEngine.executeScript("document.addVolcanoCircle("+c.getVolcano().getLatitude()+", "+c.getVolcano().getLongitude()+", "+maxDist+")");
             for(Earthquake e : c.getEarthquakes()) {
                 webEngine.executeScript("document.addBlueDot("+e.getLatitude()+", "+e.getLongitude()+")");
             }
