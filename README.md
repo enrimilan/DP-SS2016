@@ -15,6 +15,11 @@ sudo unzip armv6hf-sdk.zip
 sudo java -Djava.ext.dirs=<path_to_extraced_zip>/rt/lib/ext -jar Experiment.jar volcanoes.txt earthquakes.txt 15000
 ```
 
+If you are using OpenJDK in Ubuntu you need to install `openjfx`:
+```
+sudo apt-get install openjfx
+```
+
 ##Building and running the application with maven
 Building can be done using maven:
 ```
