@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0px; padding: 0px }
+        #map_canvas { height: 100%; background-color: #666970; }
+    </style>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization"></script>
+    <script type="text/javascript">
+    var earthquakes = [];
+  function initialize() {
+    var latlng = new google.maps.LatLng(0.0, 0.0);
+    var myOptions = {
+      zoom: 2,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: false,
+      navigationControl: false,
+      streetViewControl: false,
+      backgroundColor: "#666970"
+    };
+
+    document.map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+
+
+
+    document.addVolcanoMarker = function addMarker(x, y) {
+        var myLatLng = {lat: x, lng: y};
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: document.map,
+            icon: 'volcano.png'
+        });
+    }
+
+    document.addVolcanoCircle = function addVolcanoCircle(x, y) {
+        var latLng = {lat: x, lng: y};
+        var circle = new google.maps.Circle({
+            strokeColor: '#FF0000',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            map: document.map,
+            center: latLng,
+            radius: 15000
+        });
+    }
+
+    document.addBlueDot = function addBlueDot(x, y) {
+        var myLatLng = {lat: x, lng: y};
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: document.map,
+            icon: 'blue_dot.png'
+        });
+    }
+
+    document.addEarthquakeData = function addEarthquakeData(lat, lon){
+        earthquakes.push(new google.maps.LatLng(lat, lon));
+    }
+
+    document.createHeatMapOfEarthquakes = function createHeatMapOfEarthquakes() {
+        var heatmap = new google.maps.visualization.HeatmapLayer({
+            data: earthquakes
+        });
+        heatmap.setMap(document.map);
+    }
+
+  }
+</script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+</html>
