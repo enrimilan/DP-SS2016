@@ -17,8 +17,7 @@ import org.tuwien.experiment.entity.Earthquake;
 import org.tuwien.experiment.entity.Volcano;
 
 import javax.imageio.ImageIO;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
 public class App extends Application {
@@ -29,16 +28,37 @@ public class App extends Application {
     private static Button resultButton, volcanoesButton, earthquakesButton;
     private static double maxDist;
     private static String current;
+    private static PrintWriter writer;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
         if(args.length != 3) {
             throw new IllegalArgumentException("USAGE: experiment VOLCANOES_FILE EARTHQUAKES_FILE MAX_VOLCANO_DIAMETER");
         }
+
+        writer = new PrintWriter("result.txt", "UTF-8");
+
+        writer.println("===PARSE DATA===");
+        System.out.println("===PARSE DATA===");
+
         volcanoes = Utils.parseVolcanoes(args[0]);
+        writer.println("Parsed " + volcanoes.size() + " volcanoes");
+        System.out.println("Parsed " + volcanoes.size() + " volcanoes");
+
         earthquakes = Utils.parseEarthquakes(args[1]);
+        writer.println("Parsed " + earthquakes.size() + " earthquakes");
+        System.out.println("Parsed " + earthquakes.size() + " earthquakes");
+
         maxDist = Double.parseDouble(args[2]);
+
+        writer.println();
+        System.out.println();
+        writer.println("===START EXPERIMENT===");
+        System.out.println("===START EXPERIMENT===");
+
         correlations = checkForCorrelationBetween(volcanoes, earthquakes, maxDist);
+        writer.close();
         Application.launch(args);
+
     }
 
     @Override
@@ -160,11 +180,28 @@ public class App extends Application {
             }
             if(correlation.getEarthquakes().size()>0) {
                 correlations.add(correlation);
+                writer.println("Correlation: " + correlation.getVolcano().getLocation() + "-> " + correlation.getEarthquakes().size() + " earthquakes");
                 System.out.println("Correlation: " + correlation.getVolcano().getLocation() + "-> " + correlation.getEarthquakes().size() + " earthquakes");
-                index ++;
+                index++;
             }
         }
-        System.out.println("Approx " + (double) (index * 100 / volcanoes.size()) + "% of the vulcanoes ("+ index +") depend on earthquakes");
+
+        writer.println();
+        System.out.println();
+        writer.println("===EXPERIMENT RESULT===");
+        System.out.println("===EXPERIMENT RESULT===");
+
+        writer.println("Volcanoes: " + volcanoes.size());
+        System.out.println("Volcanoes: " + volcanoes.size());
+        writer.println("Earthquakes: "+ earthquakes.size());
+        System.out.println("Earthquakes: "+ earthquakes.size());
+        writer.println("Max chosen volcano diameter: "+maxDist+ "m");
+        System.out.println("Max chosen volcano diameter: "+maxDist+ "m");
+        writer.println("Number of volcanoes depening on earthquakes: " + correlations.size());
+        System.out.println("Number of volcanoes depening on earthquakes: " + correlations.size());
+        writer.println("Dependency ratio: Approx " + (double) (index * 100 / volcanoes.size()) +"%");
+        System.out.println("Dependency ratio: Approx " + (double) (index * 100 / volcanoes.size()) +"%");
+
         return correlations;
     }
 
