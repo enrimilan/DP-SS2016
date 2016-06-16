@@ -9,7 +9,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
-import org.tuwien.experiment.Utils.Utils;
+import org.tuwien.experiment.utils.Utils;
 import org.tuwien.experiment.entity.Correlation;
 import org.tuwien.experiment.entity.Earthquake;
 import org.tuwien.experiment.entity.Volcano;

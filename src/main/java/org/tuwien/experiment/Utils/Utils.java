@@ -1,4 +1,4 @@
-package org.tuwien.experiment.Utils;
+package org.tuwien.experiment.utils;
 
 
 import org.apache.commons.lang.math.NumberUtils;
