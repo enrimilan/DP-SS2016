@@ -42,7 +42,7 @@ public class Utils {
         } catch (IOException e) {
             System.out.println("An error occurred");
         }
-        System.out.println("Parsed " + volcanoes.size() + " volcanoes");
+
         return volcanoes;
     }
 
@@ -68,7 +68,7 @@ public class Utils {
         } catch (IOException e) {
             System.out.println("An error occurred");
         }
-        System.out.println("Parsed " + earthquakes.size() + " earthquakes");
+
         return earthquakes;
     }
 
