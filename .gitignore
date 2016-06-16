@@ -5,3 +5,8 @@ target
 out
 target
 META-INF
+*.log
+*.aux
+*.pdf
+*.gz
+*.out
