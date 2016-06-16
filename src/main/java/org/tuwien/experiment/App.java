@@ -128,7 +128,7 @@ public class App extends Application {
         root.setCenter(webView);
         root.setTop(toolBar);
 
-        primaryStage.setTitle("Experiment");
+        primaryStage.setTitle("\"Relationship between volcanoes and earthquakes\" - Experiment DP 2016");
         Scene scene = new Scene(root,1000,700);
         primaryStage.setScene(scene);
         primaryStage.show();
