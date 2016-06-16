@@ -27,6 +27,6 @@ mvn install
 ```
 Running the application:
 ```
-mvn exec:java -Dexec.mainClass=org.tuwien.experiment.App -Dexec.args="volcanoes.txt earthquakes.txt 15000"
+mvn exec:java -Dexec.mainClass=org.tuwien.experiment.App -Dexec.args="volcanoes.txt earthquakes.txt 40000"
 ```
 It is assumed that `volcanoes.txt` and `earthquakes.txt` were already downloaded.
