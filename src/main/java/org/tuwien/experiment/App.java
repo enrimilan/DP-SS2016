@@ -1,10 +1,12 @@
 package org.tuwien.experiment;
 
 import javafx.application.Application;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.WritableImage;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
@@ -14,6 +16,9 @@ import org.tuwien.experiment.entity.Correlation;
 import org.tuwien.experiment.entity.Earthquake;
 import org.tuwien.experiment.entity.Volcano;
 
+import javax.imageio.ImageIO;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class App extends Application {
@@ -23,6 +28,7 @@ public class App extends Application {
     private static ArrayList<Correlation> correlations;
     private static Button resultButton, volcanoesButton, earthquakesButton;
     private static double maxDist;
+    private static String current;
 
     public static void main(String[] args) {
         if(args.length != 3) {
@@ -36,7 +42,7 @@ public class App extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(final Stage primaryStage) throws Exception {
         // load the map
         WebView webView = new WebView();
         final WebEngine webEngine = webView.getEngine();
@@ -70,14 +76,33 @@ public class App extends Application {
             @Override
             public void handle(ActionEvent event) {
                 webEngine.reload();
+                current = null;
                 resultButton.setDisable(false);
                 volcanoesButton.setDisable(false);
                 earthquakesButton.setDisable(false);
             }
         });
 
+        final Button screenshot = new Button("Export as image");
+        screenshot.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                WritableImage snapshot = primaryStage.getScene().snapshot(null);
+                String filename = "map";
+                if(current != null){
+                    filename = current;
+                }
+                File file = new File(filename+".png");
+                try {
+                    ImageIO.write(SwingFXUtils.fromFXImage(snapshot, null), "png", file);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
         ToolBar toolBar = new ToolBar();
-        toolBar.getItems().addAll(resultButton, volcanoesButton, earthquakesButton, clear);
+        toolBar.getItems().addAll(resultButton, volcanoesButton, earthquakesButton, clear, screenshot);
 
         BorderPane root = new BorderPane();
         root.setCenter(webView);
@@ -90,6 +115,7 @@ public class App extends Application {
     }
 
     private void showExperiment(WebEngine webEngine) {
+        current = "experiment_result";
         resultButton.setDisable(true);
         volcanoesButton.setDisable(true);
         earthquakesButton.setDisable(true);
@@ -102,6 +128,7 @@ public class App extends Application {
     }
 
     private void addVolcanoes(WebEngine webEngine) {
+        current = "volcanoes";
         resultButton.setDisable(true);
         volcanoesButton.setDisable(true);
         for(Volcano v : volcanoes) {
@@ -110,6 +137,7 @@ public class App extends Application {
     }
 
     private void addEarthquakes(WebEngine webEngine) {
+        current = "earthquakes";
         resultButton.setDisable(true);
         earthquakesButton.setDisable(true);
         for(Earthquake e : earthquakes) {
