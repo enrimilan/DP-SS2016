@@ -1,0 +1,72 @@
+# 0. Display identifier and user of the system for which the execution was captured.
+PREFIX dio: <http://timbus.teco.edu/ontologies/DIO.owl#>
+PREFIX sec: <http://timbus.teco.edu/ontologies/DSOs/security.owl#>
+
+SELECT ?identifier ?user
+	WHERE {
+		?identifier a dio:Node.
+		?user a sec:User
+	}
+
+
+# 1. Display version of the operating system
+PREFIX sys: <http://timbus.teco.edu/ontologies/DSOs/software.owl#>
+
+SELECT ?os
+	WHERE {
+		?os a sys:OperatingSystem
+	}
+
+
+# 2. List Debian packages that are need by the experiment for execution
+PREFIX cudf: <http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#>
+
+SELECT ?packages
+	WHERE {
+		?packages a cudf:Package
+	}
+
+
+#3. List data files read and written by the experiment (hint: check System Software)
+PREFIX soft: <http://timbus.teco.edu/ontologies/DSOs/software.owl#>
+
+SELECT ?data_files
+	WHERE {
+		?data_files a soft:DataFile
+	}
+
+
+#4. Check whether the processes communicates with external services (ASK query)
+PREFIX cudf: <http://timbus.teco.edu/ontologies/DSOs/service.owl#>
+
+ASK
+{
+	?service a cudf:HTTPServiceInterface
+}
+
+
+PREFIX cudf: <http://timbus.teco.edu/ontologies/DSOs/service.owl#>
+
+ASK
+{
+	?service a cudf:SOAPServiceInterface
+}
+
+
+#5. List addresses of external services
+PREFIX cudf: <http://timbus.teco.edu/ontologies/DSOs/service.owl#>
+
+SELECT ?services
+	WHERE {
+		?services a cudf:Service
+	}
+
+
+#6. List dependencies that are neither data files, nor Debian packages, but are still used in the experiment.
+PREFIX dio: <http://timbus.teco.edu/ontologies/DIO.owl#>
+
+SELECT ?dependencies
+	WHERE {
+		?dependencies a dio:ApplicationFunction
+	}
+
