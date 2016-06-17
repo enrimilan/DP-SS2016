@@ -13,6 +13,8 @@
 \usepackage{framed}
 \usepackage{xcolor}
 \usepackage[section]{placeins}
+\usepackage{enumitem}
+\setlist[enumerate,1]{start=0}
 \hypersetup{
     colorlinks,
     linkcolor={red!50!black},
@@ -67,8 +69,140 @@ The data used for this experiment are publicly available, free to use. Since the
 
 
 \section{Project execution phase}
-\subsection{Experiment execution monitoring}
-\subsection{Execution model analysis}
+\subsection{Experiment execution monitoring and execution model analysis}
+After we developed our script for executing and starting the data visualization tool for the experiment, we installed and ran the data capture module of PMF (v1.0 beta) software as it is instructed in PMF website\footnote{\url{http://www.ifs.tuwien.ac.at/dp/process/projects/pmf.html}}. Workflow execution monitoring did run without any issues in a Linux Virtual Machine. The whole process did not take more than three minutes. Below is the exact command used for capturing:
+\begin{lstlisting}[breaklines]
+sudo java -jar capture-1.0-SNAPSHOT.jar -a /home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh -d  /home/enrimilan/Desktop/capture
+\end{lstlisting}
+The (zipped) extract generated from PMF (\verb|data.zip|), was used in the execution model analysis phase. More specific, we imported the \verb|data/process.owl|  ontology file into Protégé (v.5.0.0)\footnote{\url{http://protege.stanford.edu/products.php}}.  We browsed throughout the individuals of the ontology which captured the actual data of the processes executed.\\
+Finally, we started experimenting and writing SPARQL queries to easily retrieve results from the actual captured data (see the queries in SPARQL.txt). The results of each query:
+\begin{enumerate}
+\item Display identifier and user of the system for which the execution was captured.\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        {\bf identifier:} xrn://+machine?+hostid=007f0101/+hostname=ubuntu\\
+        {\bf user:} root
+    }%
+}
+
+\item Display version of the operating system\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        {\bf os:} ‘Ubuntu 16.04 LTS’
+    }%
+}\\
+\newline
+{\bf Note:} Data capturing has been conducted in a linux virtual machine
+
+\item List Debian packages that are need by the experiment for execution\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        {\bf packages:}\\
+        libuuid1	
+openjdk8jreheadless	
+libkrb526heimdal	
+libheimbase1heimdal	
+libp11kit0	
+basefiles	
+libkeyutils1	
+libc6	
+locales	
+libhogweed4	
+libnettle6
+libldap242	
+libgssapikrb52	
+libgmp10	
+wget	
+libroken18heimdal
+libtinfo5	
+libidn11	
+libsqlite30	
+libtasn16	
+libheimntlm0heimdal	
+libkrb5support0	
+libcurl3gnutls	
+libk5crypto3	
+libgnutls30	
+libkrb53	
+libhx5095heimdal	
+curl	
+libasn18heimdal	
+libpcre3	
+libc6dbg	
+libssl100	
+libcomerr2	
+libgssapi3heimdal	
+libnssmdns	
+libsasl22	
+libffi6	
+libhcrypto4heimdal	
+libwind0heimdal	
+librtmp1	
+zlib1g
+        
+    }%
+}
+
+\item List data files read and written by the experiment (hint: check System Software)\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        {\bf data\_files:}\\
+        /usr/lib/locale/locale-archive\\
+/home/enrimilan/.wget-hsts\\
+/home/enrimilan/Downloads/pmf-1.0/capture/volcanoes.txt\\
+/home/enrimilan/Downloads/pmf-1.0/capture/earthquakes.txt\\
+/home/enrimilan/Desktop/dp-experiment/scripts/\\
+/home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh\\
+    }%
+}\\
+\newline
+{\bf Note:} These are the only data captured. A manual look in Protege into the  ‘System Service’ shows only the last entry from the above list (i.e. \verb|experiment.sh|). 
+
+\item Check whether the processes communicates with external services (ASK query)\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        {\bf True \\ False}
+        
+    }%
+}\\
+\newline
+{\bf Note:} The experiment uses only HTTP service to download the source data and another HTTP service to render the results of experiment (see note in next query)
+
+\item List addresses of external services\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+       {\bf services:}\\
+127.0.1.1\\
+160.111.244.21
+    }%
+}\\
+\newline
+{\bf Note:} The first IP address is the localhost (experiment was conducted in a Linux Virtual Machine). The second one is the IP address of the ‘Smithsonian Institute’ server, from which source files (volcanoes.txt and earthquakes.txt) are downloaded. However, our analysis tool (Experiment.jar) uses also Google Maps API (v.3) to render the result. The service address was not captured and was nowhere to be found in owl file.
+
+\item List dependencies that are neither data files, nor Debian packages, but are still used in the experiment.\\
+\newline
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+       {\bf dependencies:}\\
+`Process\_0, /home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh	\\
+‘Process\_1, /usr/bin/curl\\
+‘process\_3, /usr/bin/wget\\	
+‘process\_4, /usr/bin/curl\\
+‘process\_6, /usr/bin/wget\\
+‘process\_7, /usr/bin/java
+    }%
+}\\
+\newline
+{\bf Note:} These are the dependencies used when executing the script. The script itself uses ‘curl’ and ‘wget’ to fetch the server and download source data. This is done two times, one time for the volcanoes list, and the other time for the earthquakes list. Afterwards our data analysis tool (.jar) is started using ‘java’ by the script.
+
+\end{enumerate}
+
 \subsection{Data characterisation}
 \subsection{Validation requirements}
 \subsection{Data Management Plan (DMP)}
