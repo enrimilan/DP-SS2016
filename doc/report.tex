@@ -34,6 +34,7 @@
 \part*{\begin{center}Digital Preservation\end{center}}
 \begin{center}
 Task 3: Documenting eScience experiments\\
+Relationship between volcanoes and earthquakes\\
 
 Arber Kryeziu, 0825135\\
 Enri Miho, 0929003\\
@@ -42,7 +43,28 @@ Report
 
 \section{Project application phase}
 \subsection{Experiment overview and diagram}
+Research has shown that the most usual earthquakes are caused through friction and sliding of tectonic plates one on top of the other\footnote{\url{http://pubs.usgs.gov/gip/dynamic/historical.html}}. Other factors may be ground instability (e.g. methane gas underground) and explosions. Moreover, since earthquakes and volcanoes usually occur near the edges of tectonic plates, it is known that volcanoes always cause quakes of different magnitudes due to the moving of lava to the surfacer\footnote{\url{https://pubs.usgs.gov/imap/2800/}}.\\
+In this experiment, through parsing, analysing and visualizing the data collected by the renowned Smithsonian Institution's Global Volcanism Program (GVP)\footnote{\url{http://volcano.si.edu/gvp_about.cfm}} it will be demonstrated how many volcanic eruptions are placed within a given radius (should be at least 40 km) of an earthquake’s epicenter. Data about volcanoes consist of 10,000 years of Earth's volcanism, whereby data about earthquakes consist of only earthquakes with high Richter\footnote{\url{https://en.wikipedia.org/wiki/Richter_magnitude_scale}} magnitudes ( > 4)  from year 1964 - 2007.\\
+All the parsed and analysed data will be visualized at the end. Moreover, some textual results will be extracted at the end of the experiment showing the number of volcanoes and earthquakes parsed, the relation of each volcano to the number of earthquakes as well as the correlation percentage (also labeled as dependency ratio) for a given volcano radius.\\
+\newline
+Figure 1 depicts the experiment. It consists of the following actions:
+\begin{itemize}
+\item {\bf Getting volcanoes.txt and earthquakes.txt:} First the script will try to connect to the database where these files are hosted and download them using \verb|wget|. If the connections fails for some reason, then the script will look if these files are locally available i.e were already downloaded (in any case, we provide the source files as backup). Right after this the java application will start.
+\item {\bf Parsing volcanoes.txt and earthquakes.txt:} The volcanoes and earthquakes are parsed to entity objects to make further processing of the data easier.
+\item {\bf Choosing the max volcano radius:} This is a very crucial step, the outcome will depend on this value. It represents the maximum distance a volcano and an earthquake's epicenter can have (in meters). If the distance is smaller than this value, then there is a correlation between the volcano and the earthquake, otherwise not. The default value in the script is \verb|40000m|. Note that this is still considered as a relatively small value for such a radius.
+\item {\bf Checking for dependencies:} Now the program will check for every volcano if it depends on at least one of the earthquakes. This operation can be time consuming and will depend on the size of the data.
+\item {\bf The result:} The program will generate than a result which will tell if there is a correlation between volcanoes and earthquakes or not. If the dependency ratio - this is the ratio of the number of volcanoes which depend on some earthquake and the overall number of the volcanoes - is greater or equal to 0.7, then there is a correlation, otherwise not.
+\item {\bf The GUI:} The user interface will help visualizing the result of the experiment using Google Maps (using the google maps v3 api in javascript). The distribution of the volcanoes and the earthquakes can also be visualized. For preservation purposes, screenshots can be generated too. 
+\end{itemize}
+\begin{figure}[h]
+  \centering
+    \includegraphics[scale=0.15]{latex_images/diagram}
+    \caption{State diagram of the experiment}
+\end{figure}
+
 \subsection{Other publications}
+The data used for this experiment are publicly available, free to use. Since they are relatively rich in content and capture a broad time span of tectonic occurrences, these data are the leading source for many of other publications and projects related to tectonic and volcanic activities\footnote{\url{http://ngdc.noaa.gov/hazard/volcano.shtml}}. However, through our research, we could not find experiments and analysis on all the data provided by our sources, as well as their relation to each other in the same approach as we do for this experiment. However, throughout the internet there are interactive maps which show only the latest seismic activities (i.e.. they include only a small subset of data from the same source we use)\footnote{Tilling, Robert I., et al. "This Dynamic Planet World Map of Volcanoes, Earthquakes, Impact Craters, and Plate Tectonics." (1994).}.
+
 
 \section{Project execution phase}
 \subsection{Experiment execution monitoring}
