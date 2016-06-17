@@ -1,0 +1,1302 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ubuntu_local#"
+     xml:base="http://ubuntu_local"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:service="http://timbus.teco.edu/ontologies/DSOs/service.owl#"
+     xmlns:pmf="http://localhost/pmf.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:DIO="http://timbus.teco.edu/ontologies/DIO.owl#"
+     xmlns:CUDF="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#">
+    <owl:Ontology rdf:about="http://ubuntu_local">
+        <owl:imports rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl"/>
+        <owl:imports rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl"/>
+        <owl:imports rdf:resource="http://timbus.teco.edu/ontologies/DSOs/securityDSO.owl"/>
+        <owl:imports rdf:resource="http://timbus.teco.edu/ontologies/DSOs/serviceMapping.owl"/>
+        <owl:imports rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#visLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#visLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#accesses -->
+
+    <owl:ObjectProperty rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#accesses"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#association -->
+
+    <owl:ObjectProperty rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#association"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#composedOf -->
+
+    <owl:ObjectProperty rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#composedOf"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#triggers -->
+
+    <owl:ObjectProperty rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#triggers"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#hasDependency -->
+
+    <owl:ObjectProperty rdf:about="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#hasDependency"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/service.owl#assignedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://timbus.teco.edu/ontologies/DSOs/service.owl#assignedFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/pmf.owl#environmentVars -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost/pmf.owl#environmentVars"/>
+    
+
+
+    <!-- http://localhost/pmf.owl#networkSettings -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost/pmf.owl#networkSettings"/>
+    
+
+
+    <!-- http://localhost/pmf.owl#sourceFileName -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost/pmf.owl#sourceFileName"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#hasName"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#hasVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#hasVersion"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/service.owl#hasEndpoint -->
+
+    <owl:DatatypeProperty rdf:about="http://timbus.teco.edu/ontologies/DSOs/service.owl#hasEndpoint"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/service.owl#hasProtocol -->
+
+    <owl:DatatypeProperty rdf:about="http://timbus.teco.edu/ontologies/DSOs/service.owl#hasProtocol"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#Node -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#Node"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DIO.owl#SystemSoftware -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DIO.owl#SystemSoftware"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/security.owl#User -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DSOs/security.owl#User"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/service.owl#HTTPServiceInterface -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DSOs/service.owl#HTTPServiceInterface"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/service.owl#Service -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DSOs/service.owl#Service"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+    
+
+
+    <!-- http://timbus.teco.edu/ontologies/DSOs/software.owl#OperatingSystem -->
+
+    <owl:Class rdf:about="http://timbus.teco.edu/ontologies/DSOs/software.owl#OperatingSystem"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ubuntu_local#%2Fhome%2Fenrimilan%2F.wget-hsts -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#%2Fhome%2Fenrimilan%2F.wget-hsts">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/home/enrimilan/.wget-hsts</rdfs:label>
+        <rdfs:visLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.wget-hsts</rdfs:visLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2F -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2F">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/home/enrimilan/Desktop/dp-experiment/scripts/</rdfs:label>
+        <rdfs:visLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scripts</rdfs:visLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2Fexperiment.sh -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2Fexperiment.sh">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh</rdfs:label>
+        <rdfs:visLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experiment.sh</rdfs:visLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fearthquakes.txt -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fearthquakes.txt">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/home/enrimilan/Downloads/pmf-1.0/capture/earthquakes.txt</rdfs:label>
+        <rdfs:visLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">earthquakes.txt</rdfs:visLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fvolcanoes.txt -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fvolcanoes.txt">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/home/enrimilan/Downloads/pmf-1.0/capture/volcanoes.txt</rdfs:label>
+        <rdfs:visLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volcanoes.txt</rdfs:visLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#DataFile"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/usr/lib/locale/locale-archive</rdfs:label>
+        <rdfs:visLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locale-archive</rdfs:visLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#127.0.1.1 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#127.0.1.1">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/service.owl#Service"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127.0.1.1</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127.0.1.1/HTTP</rdfs:comment>
+        <service:assignedFrom rdf:resource="http://ubuntu_local#127.0.1.1_interface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#127.0.1.1_interface -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#127.0.1.1_interface">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/service.owl#HTTPServiceInterface"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127.0.1.1_interface</rdfs:label>
+        <service:hasEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127.0.1.1</service:hasEndpoint>
+        <service:hasProtocol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTTP</service:hasProtocol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#160.111.244.21 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#160.111.244.21">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/service.owl#Service"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160.111.244.21</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160.111.244.21/HTTP</rdfs:comment>
+        <service:assignedFrom rdf:resource="http://ubuntu_local#160.111.244.21_interface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#160.111.244.21_interface -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#160.111.244.21_interface">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/service.owl#HTTPServiceInterface"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160.111.244.21_interface</rdfs:label>
+        <service:hasEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160.111.244.21</service:hasEndpoint>
+        <service:hasProtocol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTTP</service:hasProtocol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#Ubuntu1604LTS -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#Ubuntu1604LTS">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/software.owl#OperatingSystem"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ubuntu 16.04 LTS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#basefiles -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#basefiles">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base-files</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.4ubuntu4</CUDF:hasVersion>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base-files</CUDF:hasName>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/b/base-files/base-files_9.4ubuntu4_i386.deb</pmf:sourceFileName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#curl -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#curl">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curl</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.47.0-1ubuntu2</CUDF:hasVersion>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curl</CUDF:hasName>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/c/curl/curl_7.47.0-1ubuntu2_i386.deb</pmf:sourceFileName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libcurl3gnutls"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_0 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_0">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_0</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2F"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2Fexperiment.sh"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#curl"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_1"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_3"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_4"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_6"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_7"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libtinfo5"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#openjdk8jreheadless"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#scripts"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#wget"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_1 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_1">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_1</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#160.111.244.21"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#curl"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_2"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libasn18heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libcomerr2"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libcurl3gnutls"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libffi6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgmp10"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgnutls30"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgssapi3heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgssapikrb52"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libhcrypto4heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libheimbase1heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libheimntlm0heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libhogweed4"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libhx5095heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libidn11"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libk5crypto3"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkeyutils1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkrb526heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkrb53"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkrb5support0"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libldap242"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libnettle6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libp11kit0"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libroken18heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#librtmp1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libsasl22"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libsqlite30"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libtasn16"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libwind0heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_2 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_2">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_2</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#127.0.1.1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#basefiles"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libnssmdns"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_3 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_3">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_3</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2F.wget-hsts"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fvolcanoes.txt"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#127.0.1.1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#160.111.244.21"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#basefiles"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libidn11"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libnssmdns"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libpcre3"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libssl100"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libuuid1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#locales"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#wget"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_4 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_4">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_4</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#160.111.244.21"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#curl"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#inf_process_5"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libasn18heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libcomerr2"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libcurl3gnutls"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libffi6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgmp10"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgnutls30"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgssapi3heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libgssapikrb52"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libhcrypto4heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libheimbase1heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libheimntlm0heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libhogweed4"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libhx5095heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libidn11"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libk5crypto3"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkeyutils1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkrb526heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkrb53"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libkrb5support0"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libldap242"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libnettle6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libp11kit0"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libroken18heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#librtmp1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libsasl22"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libsqlite30"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libtasn16"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libwind0heimdal"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_5 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_5">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_5</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#127.0.1.1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#basefiles"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libnssmdns"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_6 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_6">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_6</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2F.wget-hsts"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fearthquakes.txt"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#127.0.1.1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#160.111.244.21"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#basefiles"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libidn11"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libnssmdns"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libpcre3"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libssl100"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libuuid1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#locales"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#wget"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#inf_process_7 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#inf_process_7">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#InfrastructureFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inf_process_7</rdfs:label>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#openjdk8jreheadless"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libasn18heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libasn18heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libasn1-8-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libasn1-8-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libasn1-8-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libc6 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libc6">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libc6</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.23-0ubuntu3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/g/glibc/libc6_2.23-0ubuntu3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libc6</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libc6dbg -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libc6dbg">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libc6-dbg</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.23-0ubuntu3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/g/glibc/libc6-dbg_2.23-0ubuntu3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libc6-dbg</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libcomerr2 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libcomerr2">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libcomerr2</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.42.13-1ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/e/e2fsprogs/libcomerr2_1.42.13-1ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libcomerr2</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libcurl3gnutls -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libcurl3gnutls">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libcurl3-gnutls</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.47.0-1ubuntu2</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/c/curl/libcurl3-gnutls_7.47.0-1ubuntu2_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libcurl3-gnutls</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libffi6 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libffi6">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libffi6</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2.1-4</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/libf/libffi/libffi6_3.2.1-4_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libffi6</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libgmp10 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libgmp10">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgmp10</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:6.1.0+dfsg-2</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/g/gmp/libgmp10_6.1.0+dfsg-2_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgmp10</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libgnutls30 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libgnutls30">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgnutls30</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.4.10-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/g/gnutls28/libgnutls30_3.4.10-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgnutls30</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libgmp10"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libhogweed4"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libidn11"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libnettle6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libp11kit0"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libtasn16"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libgssapi3heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libgssapi3heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgssapi3-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libgssapi3-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgssapi3-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libgssapikrb52 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libgssapikrb52">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgssapi-krb5-2</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.13.2+dfsg-5</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/k/krb5/libgssapi-krb5-2_1.13.2+dfsg-5_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libgssapi-krb5-2</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libhcrypto4heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libhcrypto4heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libhcrypto4-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libhcrypto4-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libhcrypto4-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libheimbase1heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libheimbase1heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libheimbase1-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libheimbase1-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libheimbase1-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libheimntlm0heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libheimntlm0heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libheimntlm0-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libheimntlm0-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libheimntlm0-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libhogweed4 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libhogweed4">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libhogweed4</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2-1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/n/nettle/libhogweed4_3.2-1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libhogweed4</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libgmp10"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libnettle6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libhx5095heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libhx5095heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libhx509-5-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libhx509-5-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libhx509-5-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libidn11 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libidn11">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libidn11</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.32-3ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/libi/libidn/libidn11_1.32-3ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libidn11</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libk5crypto3 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libk5crypto3">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libk5crypto3</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.13.2+dfsg-5</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/k/krb5/libk5crypto3_1.13.2+dfsg-5_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libk5crypto3</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libkrb5support0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libkeyutils1 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libkeyutils1">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkeyutils1</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.5.9-8ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/k/keyutils/libkeyutils1_1.5.9-8ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkeyutils1</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libkrb526heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libkrb526heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkrb5-26-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libkrb5-26-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkrb5-26-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libkrb53 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libkrb53">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkrb5-3</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.13.2+dfsg-5</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/k/krb5/libkrb5-3_1.13.2+dfsg-5_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkrb5-3</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libkrb5support0 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libkrb5support0">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkrb5support0</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.13.2+dfsg-5</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/k/krb5/libkrb5support0_1.13.2+dfsg-5_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libkrb5support0</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libldap242 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libldap242">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libldap-2.4-2</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4.42+dfsg-2ubuntu3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/o/openldap/libldap-2.4-2_2.4.42+dfsg-2ubuntu3.1_i386.deb pool/main/o/openldap/libldap-2.4-2_2.4.42+dfsg-2ubuntu3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libldap-2.4-2</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libnettle6 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libnettle6">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libnettle6</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.2-1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/n/nettle/libnettle6_3.2-1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libnettle6</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libnssmdns -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libnssmdns">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libnss-mdns</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.10-7</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/n/nss-mdns/libnss-mdns_0.10-7_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libnss-mdns</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libp11kit0 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libp11kit0">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libp11-kit0</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.23.2-3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/p/p11-kit/libp11-kit0_0.23.2-3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libp11-kit0</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libpcre3 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libpcre3">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libpcre3</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:8.38-3.1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/p/pcre3/libpcre3_8.38-3.1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libpcre3</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libroken18heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libroken18heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libroken18-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libroken18-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libroken18-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#librtmp1 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#librtmp1">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librtmp1</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.4+20151223.gitfa8646d-1build1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/r/rtmpdump/librtmp1_2.4+20151223.gitfa8646d-1build1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librtmp1</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libgmp10"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libgnutls30"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libhogweed4"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libnettle6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libsasl22 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libsasl22">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libsasl2-2</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1.26.dfsg1-14build1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/c/cyrus-sasl2/libsasl2-2_2.1.26.dfsg1-14build1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libsasl2-2</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libsqlite30 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libsqlite30">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libsqlite3-0</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.11.0-1ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/s/sqlite3/libsqlite3-0_3.11.0-1ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libsqlite3-0</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libssl100 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libssl100">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libssl1.0.0</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.2g-1ubuntu4</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/o/openssl/libssl1.0.0_1.0.2g-1ubuntu4.1_i386.deb pool/main/o/openssl/libssl1.0.0_1.0.2g-1ubuntu4_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libssl1.0.0</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libtasn16 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libtasn16">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libtasn1-6</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.7-3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/libt/libtasn1-6/libtasn1-6_4.7-3ubuntu0.16.04.1_i386.deb pool/main/libt/libtasn1-6/libtasn1-6_4.7-3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libtasn1-6</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libtinfo5 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libtinfo5">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libtinfo5</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.0+20160213-1ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/n/ncurses/libtinfo5_6.0+20160213-1ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libtinfo5</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libuuid1 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libuuid1">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libuuid1</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.27.1-6ubuntu3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/u/util-linux/libuuid1_2.27.1-6ubuntu3.1_i386.deb pool/main/u/util-linux/libuuid1_2.27.1-6ubuntu3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libuuid1</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#libwind0heimdal -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#libwind0heimdal">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libwind0-heimdal</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.7~git20150920+dfsg-4ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/h/heimdal/libwind0-heimdal_1.7~git20150920+dfsg-4ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libwind0-heimdal</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#local_system -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#local_system">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#Node"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xrn://+machine?+hostid=007f0101/+hostname=ubuntu</rdfs:label>
+        <pmf:environmentVars rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BASH=/bin/bash
+BASHOPTS=cmdhist:complete_fullquote:extquote:force_fignore:hostcomplete:interactive_comments:nullglob:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=([0]=&quot;4&quot;)
+BASH_ARGV=([0]=&quot;/home/enrimilan/Desktop/capture/&quot; [1]=&quot;-d&quot; [2]=&quot;/home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh&quot; [3]=&quot;-s&quot;)
+BASH_CMDS=()
+BASH_LINENO=([0]=&quot;0&quot;)
+BASH_SOURCE=([0]=&quot;/tmp/pmf-capture_6153330120916284208/main.sh&quot;)
+BASH_VERSINFO=([0]=&quot;4&quot; [1]=&quot;3&quot; [2]=&quot;42&quot; [3]=&quot;1&quot; [4]=&quot;release&quot; [5]=&quot;i686-pc-linux-gnu&quot;)
+BASH_VERSION=&apos;4.3.42(1)-release&apos;
+DIRSTACK=()
+DISPLAY=:0
+EUID=0
+GROUPS=()
+HOME=/home/enrimilan
+HOSTNAME=ubuntu
+HOSTTYPE=i686
+IFS=&apos; 	
+&apos;
+LANG=en_US.UTF-8
+LANGUAGE=en_US
+LOGNAME=root
+LS_COLORS=&apos;rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:&apos;
+MACHTYPE=i686-pc-linux-gnu
+MAIL=/var/mail/root
+OPTERR=1
+OPTIND=5
+OSTYPE=linux-gnu
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PIPESTATUS=([0]=&quot;0&quot;)
+POSIXLY_CORRECT=y
+PPID=13962
+PS4=&apos;+ &apos;
+PWD=/home/enrimilan/Downloads/pmf-1.0/capture
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments:posix
+SHLVL=1
+SUDO_COMMAND=&apos;/usr/bin/java -jar capture-1.0-SNAPSHOT.jar -a /home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh -d /home/enrimilan/Desktop/capture&apos;
+SUDO_GID=1000
+SUDO_UID=1000
+SUDO_USER=enrimilan
+TERM=xterm-256color
+UID=0
+USER=root
+USERNAME=root
+XAUTHORITY=/home/enrimilan/.Xauthority
+_=posix
+depString=&apos;zlib1g
+  Depends: libc6
+  Conflicts: &lt;zlib1&gt;
+  Breaks: libxml2
+  Breaks: texlive-binaries&apos;
+dir=/home/enrimilan/Desktop/capture/
+limitLog=false
+line=
+opt=&apos;?&apos;
+package=&apos;: /etc/ld.so.cache&apos;
+processExecutionScript=/home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh
+recursivelyResolvePackages=false
+skipProcess=false
+skipTrace=false
+strace_log=/home/enrimilan/Desktop/capture//strace/strace.log.13985
+target=/home/enrimilan/Desktop/capture//strace.log.13985</pmf:environmentVars>
+        <pmf:networkSettings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ens33     Link encap:Ethernet  HWaddr 00:0c:29:3d:f8:21  
+          inet addr:192.168.192.128  Bcast:192.168.192.255  Mask:255.255.255.0
+          inet6 addr: fe80::f5d4:14aa:cb82:7c13/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:13504 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9638 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:15475942 (15.4 MB)  TX bytes:868681 (868.6 KB)
+          Interrupt:19 Base address:0x2000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:820 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:820 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:103359 (103.3 KB)  TX bytes:103359 (103.3 KB)
+</pmf:networkSettings>
+        <DIO:association rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2F.wget-hsts"/>
+        <DIO:association rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2F"/>
+        <DIO:association rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2Fexperiment.sh"/>
+        <DIO:association rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fearthquakes.txt"/>
+        <DIO:association rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDownloads%2Fpmf-1.0%2Fcapture%2Fvolcanoes.txt"/>
+        <DIO:association rdf:resource="http://ubuntu_local#%2Fusr%2Flib%2Flocale%2Flocale-archive"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#basefiles"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#curl"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libasn18heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libc6"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libc6dbg"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libcomerr2"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libcurl3gnutls"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libffi6"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libgmp10"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libgnutls30"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libgssapi3heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libgssapikrb52"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libhcrypto4heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libheimbase1heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libheimntlm0heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libhogweed4"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libhx5095heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libidn11"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libk5crypto3"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libkeyutils1"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libkrb526heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libkrb53"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libkrb5support0"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libldap242"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libnettle6"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libnssmdns"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libp11kit0"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libpcre3"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libroken18heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#librtmp1"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libsasl22"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libsqlite30"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libssl100"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libtasn16"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libtinfo5"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libuuid1"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#libwind0heimdal"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#locales"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#openjdk8jreheadless"/>
+        <DIO:association rdf:resource="http://ubuntu_local#root"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#wget"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#locales -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#locales">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locales</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.23-0ubuntu3</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/g/glibc/locales_2.23-0ubuntu3_all.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locales</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#openjdk8jreheadless -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#openjdk8jreheadless">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">openjdk-8-jre-headless</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8u91-b14-0ubuntu4~16.04.1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/o/openjdk-8/openjdk-8-jre-headless_8u91-b14-0ubuntu4~16.04.1_i386.deb pool/main/o/openjdk-8/openjdk-8-jre-headless_8u77-b03-3ubuntu3_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">openjdk-8-jre-headless</CUDF:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#process_0 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#process_0">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_0, /home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh&quot;</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh&quot;: /home/enrimilan/Desktop/dp-experiment/scripts/experiment.sh</rdfs:comment>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_0"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#process_1"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#process_3"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#process_4"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#process_6"/>
+        <DIO:triggers rdf:resource="http://ubuntu_local#process_7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#process_1 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#process_1">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_1, /usr/bin/curl&quot;</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/usr/bin/curl&quot;: curl --output /dev/null --silent --head --fail http://volcano.si.edu/includes/tdpmap/volcanoes.txt</rdfs:comment>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_1"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#process_3 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#process_3">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_3, /usr/bin/wget&quot;</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/usr/bin/wget&quot;: wget -O volcanoes.txt http://volcano.si.edu/includes/tdpmap/volcanoes.txt</rdfs:comment>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#process_4 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#process_4">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_4, /usr/bin/curl&quot;</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/usr/bin/curl&quot;: curl --output /dev/null --silent --head --fail http://volcano.si.edu/includes/tdpmap/earthquakes.txt</rdfs:comment>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_4"/>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#process_6 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#process_6">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_6, /usr/bin/wget&quot;</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/usr/bin/wget&quot;: wget -O earthquakes.txt http://volcano.si.edu/includes/tdpmap/earthquakes.txt</rdfs:comment>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#process_7 -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#process_7">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#ApplicationFunction"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process_7, /usr/bin/java&quot;</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/usr/bin/java&quot;: java -jar Experiment.jar volcanoes.txt earthquakes.txt 40000</rdfs:comment>
+        <DIO:accesses rdf:resource="http://ubuntu_local#inf_process_7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#root -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#root">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/security.owl#User"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#scripts -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#scripts">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DIO.owl#SystemSoftware"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scripts</rdfs:label>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2F"/>
+        <DIO:composedOf rdf:resource="http://ubuntu_local#%2Fhome%2Fenrimilan%2FDesktop%2Fdp-experiment%2Fscripts%2Fexperiment.sh"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#wget -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#wget">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wget</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.17.1-1ubuntu1</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/w/wget/wget_1.17.1-1ubuntu1_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wget</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libidn11"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libpcre3"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libssl100"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libuuid1"/>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#zlib1g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ubuntu_local#zlib1g -->
+
+    <owl:NamedIndividual rdf:about="http://ubuntu_local#zlib1g">
+        <rdf:type rdf:resource="http://timbus.teco.edu/ontologies/DSOs/CUDF.owl#Package"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zlib1g</rdfs:label>
+        <CUDF:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1:1.2.8.dfsg-2ubuntu4</CUDF:hasVersion>
+        <pmf:sourceFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://us.archive.ubuntu.com/ubuntupool/main/z/zlib/zlib1g_1.2.8.dfsg-2ubuntu4_i386.deb</pmf:sourceFileName>
+        <CUDF:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zlib1g</CUDF:hasName>
+        <CUDF:hasDependency rdf:resource="http://ubuntu_local#libc6"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.5-SNAPSHOT) http://owlapi.sourceforge.net -->
+
