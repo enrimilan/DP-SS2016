@@ -12,7 +12,7 @@ Since Oracle has removed javafx from some ARM distributions, it might be necessa
 ```
 sudo wget https://bitbucket.org/javafxports/arm/downloads/armv6hf-sdk.zip
 sudo unzip armv6hf-sdk.zip
-sudo java -Djava.ext.dirs=<path_to_extraced_zip>/rt/lib/ext -jar Experiment.jar volcanoes.txt earthquakes.txt 15000
+sudo java -Djava.ext.dirs=<path_to_extraced_zip>/rt/lib/ext -jar Experiment.jar volcanoes.txt earthquakes.txt 40000
 ```
 
 If you are using OpenJDK in Ubuntu you need to install `openjfx`:
