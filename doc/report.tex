@@ -212,6 +212,20 @@ All the files used and produced by executing our experiment (see result of SPARQ
 \end{figure}
 
 \subsection{Validation requirements}
+The validation requirements can be seen in table 1.
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{0.5cm}|p{3.0cm}|p{3.5cm}|p{3.0cm}|p{1.5cm}|p{3.0cm}|p{2.0cm}|}
+\hline
+ \textbf{ID} & \textbf{Requirement} & \textbf{Sub-requirement} & \textbf{Metric} & \textbf{Target value} & \textbf{Measurement point} & \textbf{Tool} \\ \hline
+ R1 & Experiment results must be identical for a given earthquake perimeter (default 40km) & Source files must have same number of entries as those provided as backup & 
+Correlation factor 0.7 (i.e. 70\%) that a vulcan center point is within the given radius of an earthquake epicenter
+ & 0 deviation on correlation percentage & Correlation percentage exported (in results.txt) & Correlation percentage exported (in results.txt) \\ \hline
+ R2 &  Source files should have same format as those provided by us (volcanoes.txt , earthquakes.txt) & Plain Text Files (txt) & &
+All entries should have same formating structure & Tabulated formating structure & Data analysis (parsing inside Experiment.jar)      \\ \hline
+\end{tabular}
+\caption{Validation requirements}
+\end{table}
 
 \subsection{Data Management Plan (DMP)}
 \subsection{Data sharing}
