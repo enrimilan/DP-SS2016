@@ -1,0 +1,980 @@
+===PARSE DATA===
+Parsed 1535 volcanoes
+Parsed 44254 earthquakes
+
+===START EXPERIMENT===
+Correlation: Panarea Italy -> 3 earthquakes
+Correlation: Lipari Italy -> 3 earthquakes
+Correlation: Stromboli Italy -> 1 earthquakes
+Correlation: Vulcano Italy -> 4 earthquakes
+Correlation: Etna Italy -> 1 earthquakes
+Correlation: Methana Greece -> 2 earthquakes
+Correlation: M�los Greece -> 4 earthquakes
+Correlation: Santorini Greece -> 1 earthquakes
+Correlation: Yali Greece -> 12 earthquakes
+Correlation: Nisyros Greece -> 10 earthquakes
+Correlation: Kos Greece -> 9 earthquakes
+Correlation: Kula Turkey -> 2 earthquakes
+Correlation: Girekol Turkey -> 1 earthquakes
+Correlation: Tend�rek Dagi Turkey -> 6 earthquakes
+Correlation: Kars Plateau Turkey -> 2 earthquakes
+Correlation: Kabargin Oth Group Georgia -> 9 earthquakes
+Correlation: Unnamed Georgia -> 7 earthquakes
+Correlation: Unnamed Georgia -> 3 earthquakes
+Correlation: Aragats Armenia -> 1 earthquakes
+Correlation: Zubair, Jebel Red Sea -> 1 earthquakes
+Correlation: Dallol Ethiopia -> 3 earthquakes
+Correlation: Alayta Ethiopia -> 1 earthquakes
+Correlation: Dabbahu Ethiopia -> 1 earthquakes
+Correlation: Borawli Ethiopia -> 5 earthquakes
+Correlation: Manda-Inakir Ethiopia -> 1 earthquakes
+Correlation: Ardouk�ba Djibouti -> 3 earthquakes
+Correlation: Tiho Djibouti -> 3 earthquakes
+Correlation: Kurub Ethiopia -> 5 earthquakes
+Correlation: Garbes Djibouti -> 1 earthquakes
+Correlation: Dofen Ethiopia -> 1 earthquakes
+Correlation: Beru Ethiopia -> 1 earthquakes
+Correlation: Fentale Ethiopia -> 1 earthquakes
+Correlation: Boset-Bericha Ethiopia -> 1 earthquakes
+Correlation: Bishoftu Volc Field Ethiopia -> 1 earthquakes
+Correlation: Sodore Ethiopia -> 1 earthquakes
+Correlation: Gedamsa Caldera Ethiopia -> 1 earthquakes
+Correlation: Bora-Bericcio Ethiopia -> 1 earthquakes
+Correlation: Tullu Moje Ethiopia -> 1 earthquakes
+Correlation: Unnamed Ethiopia -> 1 earthquakes
+Correlation: Corbetti Caldera Ethiopia -> 1 earthquakes
+Correlation: Central Island Africa-E -> 1 earthquakes
+Correlation: Lengai, Ol Doinyo Africa-E -> 2 earthquakes
+Correlation: Chyulu Hills Africa-E -> 1 earthquakes
+Correlation: Kilimanjaro Africa-E -> 1 earthquakes
+Correlation: Ngozi Africa-E -> 1 earthquakes
+Correlation: Izumbwe-Mpoli Africa-E -> 1 earthquakes
+Correlation: Rungwe Africa-E -> 1 earthquakes
+Correlation: Fort Portal Field Africa-C -> 5 earthquakes
+Correlation: Kyatwa Volc Field Africa-C -> 3 earthquakes
+Correlation: Katwe-Kikorongo Field Africa-C -> 2 earthquakes
+Correlation: Bunyaruguru Field Africa-C -> 2 earthquakes
+Correlation: May-ya-moto Africa-C -> 1 earthquakes
+Correlation: Tshibinda Africa-C -> 1 earthquakes
+Correlation: Dhamar, Harras of Arabia-S -> 1 earthquakes
+Correlation: Sabalan Iran -> 2 earthquakes
+Correlation: Damavand Iran -> 2 earthquakes
+Correlation: Qal'eh Hasan Ali Iran -> 1 earthquakes
+Correlation: Bazman Iran -> 1 earthquakes
+Correlation: Boomerang Seamount Indian O.-S -> 3 earthquakes
+Correlation: Amsterdam Island Indian O.-S -> 2 earthquakes
+Correlation: McDonald Islands Indian O.-S -> 8 earthquakes
+Correlation: Heard Indian O.-S -> 1 earthquakes
+Correlation: Mayor Island New Zealand -> 2 earthquakes
+Correlation: Egmont [Taranaki] New Zealand -> 2 earthquakes
+Correlation: Whale Island New Zealand -> 12 earthquakes
+Correlation: Rotorua New Zealand -> 7 earthquakes
+Correlation: White Island New Zealand -> 14 earthquakes
+Correlation: Okataina New Zealand -> 8 earthquakes
+Correlation: Reporoa New Zealand -> 2 earthquakes
+Correlation: Maroa New Zealand -> 7 earthquakes
+Correlation: Taupo New Zealand -> 9 earthquakes
+Correlation: Tongariro New Zealand -> 4 earthquakes
+Correlation: Ruapehu New Zealand -> 4 earthquakes
+Correlation: Rumble V New Zealand -> 8 earthquakes
+Correlation: Rumble IV New Zealand -> 7 earthquakes
+Correlation: Rumble III New Zealand -> 8 earthquakes
+Correlation: Healy New Zealand -> 8 earthquakes
+Correlation: Curtis Island Kermadec Is -> 13 earthquakes
+Correlation: Macauley Island Kermadec Is -> 14 earthquakes
+Correlation: Raoul Island Kermadec Is -> 8 earthquakes
+Correlation: Monowai Seamount Kermadec Is -> 21 earthquakes
+Correlation: Unnamed Tonga-SW Pacific -> 14 earthquakes
+Correlation: Unnamed Tonga-SW Pacific -> 13 earthquakes
+Correlation: Hunga Tonga-Hunga Ha'apai Tonga-SW Pacific -> 8 earthquakes
+Correlation: Falcon Island Tonga-SW Pacific -> 11 earthquakes
+Correlation: Kao Tonga-SW Pacific -> 10 earthquakes
+Correlation: Tofua Tonga-SW Pacific -> 12 earthquakes
+Correlation: Metis Shoal Tonga-SW Pacific -> 14 earthquakes
+Correlation: Home Reef Tonga-SW Pacific -> 13 earthquakes
+Correlation: Unnamed Tonga-SW Pacific -> 29 earthquakes
+Correlation: Late Tonga-SW Pacific -> 14 earthquakes
+Correlation: Tafahi Tonga-SW Pacific -> 31 earthquakes
+Correlation: Curacoa Tonga-SW Pacific -> 32 earthquakes
+Correlation: Fonualei Tonga-SW Pacific -> 19 earthquakes
+Correlation: Niuafo'ou Tonga-SW Pacific -> 13 earthquakes
+Correlation: Vailulu'u Samoa-SW Pacific -> 1 earthquakes
+Correlation: Taveuni Fiji Is-SW Pacific -> 2 earthquakes
+Correlation: Baluan Admiralty Is-SW Pacific -> 1 earthquakes
+Correlation: Unnamed Admiralty Is-SW Pacific -> 8 earthquakes
+Correlation: Blup Blup New Guinea-NE of -> 15 earthquakes
+Correlation: Kadovar New Guinea-NE of -> 14 earthquakes
+Correlation: Bam New Guinea-NE of -> 10 earthquakes
+Correlation: Manam New Guinea-NE of -> 1 earthquakes
+Correlation: Karkar New Guinea-NE of -> 11 earthquakes
+Correlation: Unnamed New Guinea-NE of -> 7 earthquakes
+Correlation: Long Island New Guinea-NE of -> 56 earthquakes
+Correlation: Umboi New Guinea-NE of -> 31 earthquakes
+Correlation: Ritter Island New Guinea-NE of -> 28 earthquakes
+Correlation: Sakar New Guinea-NE of -> 17 earthquakes
+Correlation: Langila New Britain-SW Pac -> 25 earthquakes
+Correlation: Mundua New Britain-SW Pac -> 2 earthquakes
+Correlation: Narage New Britain-SW Pac -> 2 earthquakes
+Correlation: Garove New Britain-SW Pac -> 3 earthquakes
+Correlation: Dakataua New Britain-SW Pac -> 4 earthquakes
+Correlation: Bola New Britain-SW Pac -> 4 earthquakes
+Correlation: Garua Harbour New Britain-SW Pac -> 6 earthquakes
+Correlation: Lolo New Britain-SW Pac -> 21 earthquakes
+Correlation: Garbuna Group New Britain-SW Pac -> 11 earthquakes
+Correlation: Pago New Britain-SW Pac -> 19 earthquakes
+Correlation: Walo New Britain-SW Pac -> 36 earthquakes
+Correlation: Hargy New Britain-SW Pac -> 44 earthquakes
+Correlation: Bamus New Britain-SW Pac -> 52 earthquakes
+Correlation: Ulawun New Britain-SW Pac -> 47 earthquakes
+Correlation: Unnamed New Britain-SW Pac -> 5 earthquakes
+Correlation: Lolobau New Britain-SW Pac -> 19 earthquakes
+Correlation: Rabaul New Britain-SW Pac -> 24 earthquakes
+Correlation: Doma Peaks New Guinea -> 2 earthquakes
+Correlation: Yelia New Guinea -> 9 earthquakes
+Correlation: Koranga New Guinea -> 5 earthquakes
+Correlation: Hydrographers Range New Guinea -> 4 earthquakes
+Correlation: Lamington New Guinea -> 3 earthquakes
+Correlation: Managlase Plateau New Guinea -> 5 earthquakes
+Correlation: Musa River New Guinea -> 5 earthquakes
+Correlation: Sessagara New Guinea -> 6 earthquakes
+Correlation: Victory New Guinea -> 5 earthquakes
+Correlation: Goodenough D'Entrecasteaux Is -> 4 earthquakes
+Correlation: Waiowa New Guinea -> 7 earthquakes
+Correlation: Iamalele D'Entrecasteaux Is -> 5 earthquakes
+Correlation: Dawson Strait Group D'Entrecasteaux Is -> 8 earthquakes
+Correlation: Lihir New Ireland-SW Pacific -> 2 earthquakes
+Correlation: Ambitle New Ireland-SW Pacific -> 7 earthquakes
+Correlation: Tore Bougainville-SW Pacific -> 11 earthquakes
+Correlation: Billy Mitchell Bougainville-SW Pacific -> 26 earthquakes
+Correlation: Balbi Bougainville-SW Pacific -> 9 earthquakes
+Correlation: Takuan Group Bougainville-SW Pacific -> 17 earthquakes
+Correlation: Bagana Bougainville-SW Pacific -> 54 earthquakes
+Correlation: Loloru Bougainville-SW Pacific -> 18 earthquakes
+Correlation: Nonda Solomon Is-SW Pacific -> 6 earthquakes
+Correlation: Kana Keoki Solomon Is-SW Pacific -> 10 earthquakes
+Correlation: Coleman Seamount Solomon Is-SW Pacific -> 9 earthquakes
+Correlation: Simbo Solomon Is-SW Pacific -> 15 earthquakes
+Correlation: Unnamed Solomon Is-SW Pacific -> 20 earthquakes
+Correlation: Gallego Solomon Is-SW Pacific -> 11 earthquakes
+Correlation: Kavachi Solomon Is-SW Pacific -> 23 earthquakes
+Correlation: Savo Solomon Is-SW Pacific -> 3 earthquakes
+Correlation: Tinakula Santa Cruz Is-SW Pacific -> 8 earthquakes
+Correlation: Motlav Vanuatu-SW Pacific -> 18 earthquakes
+Correlation: Suretamatai Vanuatu-SW Pacific -> 31 earthquakes
+Correlation: Mere Lava Vanuatu-SW Pacific -> 23 earthquakes
+Correlation: Gaua Vanuatu-SW Pacific -> 47 earthquakes
+Correlation: Aoba Vanuatu-SW Pacific -> 66 earthquakes
+Correlation: Ambrym Vanuatu-SW Pacific -> 45 earthquakes
+Correlation: Lopevi Vanuatu-SW Pacific -> 15 earthquakes
+Correlation: Epi Vanuatu-SW Pacific -> 16 earthquakes
+Correlation: Kuwae Vanuatu-SW Pacific -> 16 earthquakes
+Correlation: Unnamed Vanuatu-SW Pacific -> 17 earthquakes
+Correlation: North Vate Vanuatu-SW Pacific -> 23 earthquakes
+Correlation: Traitor's Head Vanuatu-SW Pacific -> 63 earthquakes
+Correlation: Yasur Vanuatu-SW Pacific -> 30 earthquakes
+Correlation: Aneityum Vanuatu-SW Pacific -> 24 earthquakes
+Correlation: Eastern Gemini Seamount SW Pacific -> 18 earthquakes
+Correlation: Matthew Island SW Pacific -> 50 earthquakes
+Correlation: Hunter Island SW Pacific -> 15 earthquakes
+Correlation: Barren Island Andaman Is-Indian O -> 3 earthquakes
+Correlation: Pulau Weh Sumatra -> 6 earthquakes
+Correlation: Seulawah Agam Sumatra -> 3 earthquakes
+Correlation: Peuet Sague Sumatra -> 8 earthquakes
+Correlation: Geureudong Sumatra -> 1 earthquakes
+Correlation: Kembar Sumatra -> 4 earthquakes
+Correlation: Sibayak Sumatra -> 2 earthquakes
+Correlation: Sinabung Sumatra -> 2 earthquakes
+Correlation: Toba Sumatra -> 3 earthquakes
+Correlation: Imun Sumatra -> 7 earthquakes
+Correlation: Helatoba-Tarutung Sumatra -> 8 earthquakes
+Correlation: Lubukraya Sumatra -> 4 earthquakes
+Correlation: Sibualbuali Sumatra -> 6 earthquakes
+Correlation: Sorikmarapi Sumatra -> 1 earthquakes
+Correlation: Sarik-Gajah Sumatra -> 1 earthquakes
+Correlation: Talakmau Sumatra -> 2 earthquakes
+Correlation: Marapi Sumatra -> 1 earthquakes
+Correlation: Tandikat Sumatra -> 1 earthquakes
+Correlation: Talang Sumatra -> 3 earthquakes
+Correlation: Hutapanjang Sumatra -> 5 earthquakes
+Correlation: Kerinci Sumatra -> 2 earthquakes
+Correlation: Sumbing Sumatra -> 4 earthquakes
+Correlation: Pendan Sumatra -> 6 earthquakes
+Correlation: Kunyit Sumatra -> 2 earthquakes
+Correlation: Belirang-Beriti Sumatra -> 8 earthquakes
+Correlation: Daun, Bukit Sumatra -> 7 earthquakes
+Correlation: Kaba Sumatra -> 3 earthquakes
+Correlation: Patah Sumatra -> 3 earthquakes
+Correlation: Dempo Sumatra -> 4 earthquakes
+Correlation: Lumut Balai, Bukit Sumatra -> 2 earthquakes
+Correlation: Ranau Sumatra -> 2 earthquakes
+Correlation: Besar Sumatra -> 1 earthquakes
+Correlation: Sekincau Belirang Sumatra -> 4 earthquakes
+Correlation: Suoh Sumatra -> 6 earthquakes
+Correlation: Hulubelu Sumatra -> 1 earthquakes
+Correlation: Rajabasa Sumatra -> 19 earthquakes
+Correlation: Krakatau Indonesia -> 23 earthquakes
+Correlation: Danau Complex Java -> 8 earthquakes
+Correlation: Karang Java -> 8 earthquakes
+Correlation: Kiaraberes-Gagak Java -> 8 earthquakes
+Correlation: Perbakti Java -> 9 earthquakes
+Correlation: Salak Java -> 9 earthquakes
+Correlation: Gede Java -> 10 earthquakes
+Correlation: Patuha Java -> 7 earthquakes
+Correlation: Malabar Java -> 3 earthquakes
+Correlation: Wayang-Windu Java -> 5 earthquakes
+Correlation: Tangkubanparahu Java -> 1 earthquakes
+Correlation: Papandayan Java -> 3 earthquakes
+Correlation: Kendang Java -> 3 earthquakes
+Correlation: Kamojang, Kawah Java -> 2 earthquakes
+Correlation: Tampomas Java -> 2 earthquakes
+Correlation: Guntur Java -> 3 earthquakes
+Correlation: Galunggung Java -> 1 earthquakes
+Correlation: Talagabodas Java -> 1 earthquakes
+Correlation: Karaha, Kawah Java -> 1 earthquakes
+Correlation: Cereme Java -> 2 earthquakes
+Correlation: Slamet Java -> 3 earthquakes
+Correlation: Merapi Java -> 1 earthquakes
+Correlation: Lawu Java -> 1 earthquakes
+Correlation: Kawi-Butak Java -> 2 earthquakes
+Correlation: Kelut Java -> 3 earthquakes
+Correlation: Malang Plain Java -> 2 earthquakes
+Correlation: Semeru Java -> 2 earthquakes
+Correlation: Tengger Caldera Java -> 2 earthquakes
+Correlation: Lamongan Java -> 1 earthquakes
+Correlation: Iyang-Argapura Java -> 1 earthquakes
+Correlation: Baluran Java -> 1 earthquakes
+Correlation: Bratan Lesser Sunda Is -> 4 earthquakes
+Correlation: Batur Lesser Sunda Is -> 2 earthquakes
+Correlation: Agung Lesser Sunda Is -> 5 earthquakes
+Correlation: Rinjani Lesser Sunda Is -> 3 earthquakes
+Correlation: Tambora Lesser Sunda Is -> 10 earthquakes
+Correlation: Sangeang Api Lesser Sunda Is -> 4 earthquakes
+Correlation: Sano, Wai Lesser Sunda Is -> 1 earthquakes
+Correlation: Ranakah Lesser Sunda Is -> 7 earthquakes
+Correlation: Poco Leok Lesser Sunda Is -> 7 earthquakes
+Correlation: Inierie Lesser Sunda Is -> 2 earthquakes
+Correlation: Inielika Lesser Sunda Is -> 3 earthquakes
+Correlation: Ebulobo Lesser Sunda Is -> 3 earthquakes
+Correlation: Iya Lesser Sunda Is -> 4 earthquakes
+Correlation: Sukaria Caldera Lesser Sunda Is -> 12 earthquakes
+Correlation: Ndete Napu Lesser Sunda Is -> 17 earthquakes
+Correlation: Kelimutu Lesser Sunda Is -> 15 earthquakes
+Correlation: Paluweh Lesser Sunda Is -> 35 earthquakes
+Correlation: Egon Lesser Sunda Is -> 9 earthquakes
+Correlation: Ilimuda Lesser Sunda Is -> 13 earthquakes
+Correlation: Lewotobi Lesser Sunda Is -> 9 earthquakes
+Correlation: Leroboleng Lesser Sunda Is -> 14 earthquakes
+Correlation: Riang Kotang Lesser Sunda Is -> 11 earthquakes
+Correlation: Iliboleng Lesser Sunda Is -> 9 earthquakes
+Correlation: Lewotolo Lesser Sunda Is -> 4 earthquakes
+Correlation: Ililabalekan Lesser Sunda Is -> 12 earthquakes
+Correlation: Iliwerung Lesser Sunda Is -> 13 earthquakes
+Correlation: Tara, Batu Lesser Sunda Is -> 2 earthquakes
+Correlation: Sirung Lesser Sunda Is -> 18 earthquakes
+Correlation: Yersey Lesser Sunda Is -> 4 earthquakes
+Correlation: Emperor of China Banda Sea -> 2 earthquakes
+Correlation: Nieuwerkerk Banda Sea -> 2 earthquakes
+Correlation: Gunungapi Wetar Banda Sea -> 3 earthquakes
+Correlation: Wurlali Banda Sea -> 75 earthquakes
+Correlation: Teon Banda Sea -> 94 earthquakes
+Correlation: Nila Banda Sea -> 93 earthquakes
+Correlation: Serua Banda Sea -> 76 earthquakes
+Correlation: Manuk Banda Sea -> 6 earthquakes
+Correlation: Banda Api Banda Sea -> 8 earthquakes
+Correlation: Colo [Una Una] Sulawesi-Indonesia -> 46 earthquakes
+Correlation: Ambang Sulawesi-Indonesia -> 5 earthquakes
+Correlation: Soputan Sulawesi-Indonesia -> 2 earthquakes
+Correlation: Sempu Sulawesi-Indonesia -> 3 earthquakes
+Correlation: Tondano Caldera Sulawesi-Indonesia -> 3 earthquakes
+Correlation: Lokon-Empung Sulawesi-Indonesia -> 4 earthquakes
+Correlation: Mahawu Sulawesi-Indonesia -> 4 earthquakes
+Correlation: Klabat Sulawesi-Indonesia -> 5 earthquakes
+Correlation: Tongkoko Sulawesi-Indonesia -> 1 earthquakes
+Correlation: Ruang Sangihe Is-Indonesia -> 6 earthquakes
+Correlation: Karangetang [Api Siau] Sangihe Is-Indonesia -> 18 earthquakes
+Correlation: Banua Wuhu Sangihe Is-Indonesia -> 13 earthquakes
+Correlation: Awu Sangihe Is-Indonesia -> 14 earthquakes
+Correlation: Unnamed Sangihe Is-Indonesia -> 4 earthquakes
+Correlation: Tarakan Halmahera-Indonesia -> 20 earthquakes
+Correlation: Dukono Halmahera-Indonesia -> 9 earthquakes
+Correlation: Tobaru Halmahera-Indonesia -> 41 earthquakes
+Correlation: Ibu Halmahera-Indonesia -> 39 earthquakes
+Correlation: Gamkonora Halmahera-Indonesia -> 40 earthquakes
+Correlation: Jailolo Halmahera-Indonesia -> 17 earthquakes
+Correlation: Hiri Halmahera-Indonesia -> 12 earthquakes
+Correlation: Todoko-Ranu Halmahera-Indonesia -> 26 earthquakes
+Correlation: Tidore Halmahera-Indonesia -> 4 earthquakes
+Correlation: Mare Halmahera-Indonesia -> 5 earthquakes
+Correlation: Moti Halmahera-Indonesia -> 3 earthquakes
+Correlation: Gamalama Halmahera-Indonesia -> 10 earthquakes
+Correlation: Tigalalu Halmahera-Indonesia -> 3 earthquakes
+Correlation: Amasing Halmahera-Indonesia -> 14 earthquakes
+Correlation: Bibinoi Halmahera-Indonesia -> 14 earthquakes
+Correlation: Makian Halmahera-Indonesia -> 2 earthquakes
+Correlation: Parker Mindanao-Philippines -> 4 earthquakes
+Correlation: Balut Mindanao-Philippines -> 26 earthquakes
+Correlation: Matutum Mindanao-Philippines -> 3 earthquakes
+Correlation: Leonard Range Mindanao-Philippines -> 26 earthquakes
+Correlation: Unnamed Mindanao-Philippines -> 2 earthquakes
+Correlation: Apo Mindanao-Philippines -> 2 earthquakes
+Correlation: Makaturing Mindanao-Philippines -> 9 earthquakes
+Correlation: Latukan Mindanao-Philippines -> 7 earthquakes
+Correlation: Kalatungan Mindanao-Philippines -> 2 earthquakes
+Correlation: Ragang Mindanao-Philippines -> 6 earthquakes
+Correlation: Malindang Mindanao-Philippines -> 4 earthquakes
+Correlation: Calayo Mindanao-Philippines -> 1 earthquakes
+Correlation: Paco Mindanao-Philippines -> 23 earthquakes
+Correlation: Magaso Philippines-C -> 1 earthquakes
+Correlation: Cabal�an Philippines-C -> 24 earthquakes
+Correlation: Mahagnoa Philippines-C -> 3 earthquakes
+Correlation: Biliran Philippines-C -> 4 earthquakes
+Correlation: Bulusan Luzon-Philippines -> 5 earthquakes
+Correlation: Pocdol Mountains Luzon-Philippines -> 4 earthquakes
+Correlation: Masaraga Luzon-Philippines -> 2 earthquakes
+Correlation: Mayon Luzon-Philippines -> 2 earthquakes
+Correlation: Iriga Luzon-Philippines -> 3 earthquakes
+Correlation: Isarog Luzon-Philippines -> 3 earthquakes
+Correlation: Labo Luzon-Philippines -> 1 earthquakes
+Correlation: Malindig Luzon-Philippines -> 2 earthquakes
+Correlation: Panay Luzon-Philippines -> 44 earthquakes
+Correlation: Malinao Luzon-Philippines -> 2 earthquakes
+Correlation: Laguna Volc Field Luzon-Philippines -> 3 earthquakes
+Correlation: Banahao Luzon-Philippines -> 3 earthquakes
+Correlation: Maquiling Luzon-Philippines -> 2 earthquakes
+Correlation: Taal Luzon-Philippines -> 28 earthquakes
+Correlation: Mariveles Luzon-Philippines -> 1 earthquakes
+Correlation: Natib Luzon-Philippines -> 5 earthquakes
+Correlation: Pinatubo Luzon-Philippines -> 25 earthquakes
+Correlation: Arayat Luzon-Philippines -> 14 earthquakes
+Correlation: Amorong Luzon-Philippines -> 7 earthquakes
+Correlation: Santo Tomas Luzon-Philippines -> 22 earthquakes
+Correlation: Patoc Luzon-Philippines -> 5 earthquakes
+Correlation: Ambalatungan Group Luzon-Philippines -> 5 earthquakes
+Correlation: Jalajala Luzon-Philippines -> 2 earthquakes
+Correlation: Camiguin de Babuyanes Luzon-N of -> 2 earthquakes
+Correlation: Didicas Luzon-N of -> 3 earthquakes
+Correlation: Babuyan Claro Luzon-N of -> 7 earthquakes
+Correlation: Unnamed Luzon-N of -> 11 earthquakes
+Correlation: Iraya Luzon-N of -> 8 earthquakes
+Correlation: Popa SE Asia -> 2 earthquakes
+Correlation: Lower Chindwin SE Asia -> 1 earthquakes
+Correlation: Singu Plateau SE Asia -> 1 earthquakes
+Correlation: Unnamed Taiwan-E of -> 24 earthquakes
+Correlation: Kueishantao Taiwan -> 27 earthquakes
+Correlation: Tatun Group Taiwan -> 1 earthquakes
+Correlation: Unnamed Taiwan-E of -> 105 earthquakes
+Correlation: Pengchiahsu Taiwan-N of -> 3 earthquakes
+Correlation: Unnamed Taiwan-N of -> 5 earthquakes
+Correlation: Iriomote-jima Ryukyu Is -> 2 earthquakes
+Correlation: Akuseki-jima Ryukyu Is -> 13 earthquakes
+Correlation: Iwo-Tori-shima Ryukyu Is -> 9 earthquakes
+Correlation: Suwanose-jima Ryukyu Is -> 4 earthquakes
+Correlation: Kuchino-shima Ryukyu Is -> 2 earthquakes
+Correlation: Nakano-shima Ryukyu Is -> 3 earthquakes
+Correlation: Kuchinoerabu-jima Ryukyu Is -> 1 earthquakes
+Correlation: Kikai Ryukyu Is -> 5 earthquakes
+Correlation: Ibusuki Volc Field Kyushu-Japan -> 6 earthquakes
+Correlation: Sumiyoshi-ike Kyushu-Japan -> 5 earthquakes
+Correlation: Sakura-jima Kyushu-Japan -> 1 earthquakes
+Correlation: Kirishima Kyushu-Japan -> 4 earthquakes
+Correlation: Unzen Kyushu-Japan -> 5 earthquakes
+Correlation: Aso Kyushu-Japan -> 6 earthquakes
+Correlation: Kuju Kyushu-Japan -> 3 earthquakes
+Correlation: Tsurumi Kyushu-Japan -> 2 earthquakes
+Correlation: Abu Honshu-Japan -> 1 earthquakes
+Correlation: Sanbe Honshu-Japan -> 2 earthquakes
+Correlation: Izu-Tobu Honshu-Japan -> 25 earthquakes
+Correlation: Hakone Honshu-Japan -> 22 earthquakes
+Correlation: Fuji Honshu-Japan -> 13 earthquakes
+Correlation: On-take Honshu-Japan -> 7 earthquakes
+Correlation: Haku-san Honshu-Japan -> 5 earthquakes
+Correlation: Norikura Honshu-Japan -> 7 earthquakes
+Correlation: Washiba-Kumonotaira Honshu-Japan -> 4 earthquakes
+Correlation: Yake-dake Honshu-Japan -> 5 earthquakes
+Correlation: Tate-yama Honshu-Japan -> 4 earthquakes
+Correlation: Niigata-Yake-yama Honshu-Japan -> 6 earthquakes
+Correlation: Myoko Honshu-Japan -> 7 earthquakes
+Correlation: Asama Honshu-Japan -> 5 earthquakes
+Correlation: Shiga Honshu-Japan -> 5 earthquakes
+Correlation: Haruna Honshu-Japan -> 1 earthquakes
+Correlation: Kusatsu-Shirane Honshu-Japan -> 4 earthquakes
+Correlation: Hiuchi Honshu-Japan -> 1 earthquakes
+Correlation: Akagi Honshu-Japan -> 2 earthquakes
+Correlation: Nantai Honshu-Japan -> 4 earthquakes
+Correlation: Omanago Group Honshu-Japan -> 4 earthquakes
+Correlation: Takahara Honshu-Japan -> 2 earthquakes
+Correlation: Nikko-Shirane Honshu-Japan -> 3 earthquakes
+Correlation: Numazawa Honshu-Japan -> 4 earthquakes
+Correlation: Nasu Honshu-Japan -> 3 earthquakes
+Correlation: Bandai Honshu-Japan -> 2 earthquakes
+Correlation: Adatara Honshu-Japan -> 3 earthquakes
+Correlation: Azuma Honshu-Japan -> 2 earthquakes
+Correlation: Hijiori Honshu-Japan -> 3 earthquakes
+Correlation: Zao Honshu-Japan -> 2 earthquakes
+Correlation: Narugo Honshu-Japan -> 13 earthquakes
+Correlation: Kurikoma Honshu-Japan -> 13 earthquakes
+Correlation: Chokai Honshu-Japan -> 1 earthquakes
+Correlation: Akita-Komaga-take Honshu-Japan -> 2 earthquakes
+Correlation: Iwate Honshu-Japan -> 2 earthquakes
+Correlation: Hachimantai Honshu-Japan -> 1 earthquakes
+Correlation: Kanpu Honshu-Japan -> 2 earthquakes
+Correlation: Megata Honshu-Japan -> 3 earthquakes
+Correlation: Akita-Yake-yama Honshu-Japan -> 1 earthquakes
+Correlation: Towada Honshu-Japan -> 3 earthquakes
+Correlation: Iwaki Honshu-Japan -> 3 earthquakes
+Correlation: Hakkoda Group Honshu-Japan -> 2 earthquakes
+Correlation: Osore-yama Honshu-Japan -> 4 earthquakes
+Correlation: Mutsu-Hiuchi-dake Honshu-Japan -> 2 earthquakes
+Correlation: To-shima Izu Is-Japan -> 27 earthquakes
+Correlation: Oshima Izu Is-Japan -> 25 earthquakes
+Correlation: Nii-jima Izu Is-Japan -> 24 earthquakes
+Correlation: Kozu-shima Izu Is-Japan -> 19 earthquakes
+Correlation: Mikura-jima Izu Is-Japan -> 12 earthquakes
+Correlation: Kurose Hole Izu Is-Japan -> 2 earthquakes
+Correlation: Miyake-jima Izu Is-Japan -> 22 earthquakes
+Correlation: Hachijo-jima Izu Is-Japan -> 4 earthquakes
+Correlation: Myojin Knoll Izu Is-Japan -> 3 earthquakes
+Correlation: Aoga-shima Izu Is-Japan -> 4 earthquakes
+Correlation: Bayonnaise Rocks Izu Is-Japan -> 4 earthquakes
+Correlation: Smith Rock Izu Is-Japan -> 9 earthquakes
+Correlation: Omachi Seamount Izu Is-Japan -> 7 earthquakes
+Correlation: Nishino-shima Volcano Is-Japan -> 1 earthquakes
+Correlation: Tori-shima Izu Is-Japan -> 8 earthquakes
+Correlation: Kaitoku Seamount Volcano Is-Japan -> 3 earthquakes
+Correlation: Kita-Iwo-jima Volcano Is-Japan -> 3 earthquakes
+Correlation: Kita-Fukutokutai Volcano Is-Japan -> 6 earthquakes
+Correlation: Iwo-jima Volcano Is-Japan -> 5 earthquakes
+Correlation: Minami-Hiyoshi Volcano Is-Japan -> 3 earthquakes
+Correlation: Nikko Volcano Is-Japan -> 9 earthquakes
+Correlation: Fukujin Volcano Is-Japan -> 3 earthquakes
+Correlation: Kasuga Volcano Is-Japan -> 6 earthquakes
+Correlation: Minami Kasuga Volcano Is-Japan -> 5 earthquakes
+Correlation: Unnamed Mariana Is-C Pacific -> 2 earthquakes
+Correlation: Fukutoku-Okanoba Volcano Is-Japan -> 6 earthquakes
+Correlation: Ahyi Mariana Is-C Pacific -> 2 earthquakes
+Correlation: Supply Reef Mariana Is-C Pacific -> 1 earthquakes
+Correlation: Maug Islands Mariana Is-C Pacific -> 1 earthquakes
+Correlation: Farallon de Pajaros Mariana Is-C Pacific -> 3 earthquakes
+Correlation: Agrigan Mariana Is-C Pacific -> 40 earthquakes
+Correlation: Pagan Mariana Is-C Pacific -> 17 earthquakes
+Correlation: Alamagan Mariana Is-C Pacific -> 14 earthquakes
+Correlation: Sarigan Mariana Is-C Pacific -> 13 earthquakes
+Correlation: Guguan Mariana Is-C Pacific -> 12 earthquakes
+Correlation: Ruby Mariana Is-C Pacific -> 2 earthquakes
+Correlation: Anatahan Mariana Is-C Pacific -> 11 earthquakes
+Correlation: Esmeralda Bank Mariana Is-C Pacific -> 1 earthquakes
+Correlation: E-san Hokkaido-Japan -> 4 earthquakes
+Correlation: Oshima-Oshima Hokkaido-Japan -> 13 earthquakes
+Correlation: Nigorigawa Hokkaido-Japan -> 4 earthquakes
+Correlation: Komaga-take Hokkaido-Japan -> 4 earthquakes
+Correlation: Niseko Hokkaido-Japan -> 1 earthquakes
+Correlation: Yotei Hokkaido-Japan -> 2 earthquakes
+Correlation: Shiribetsu Hokkaido-Japan -> 2 earthquakes
+Correlation: Kuttara Hokkaido-Japan -> 2 earthquakes
+Correlation: Usu Hokkaido-Japan -> 2 earthquakes
+Correlation: Shikotsu Hokkaido-Japan -> 2 earthquakes
+Correlation: Tokachi Hokkaido-Japan -> 2 earthquakes
+Correlation: Nipesotsu-Upepesanke Hokkaido-Japan -> 1 earthquakes
+Correlation: Shikaribetsu Group Hokkaido-Japan -> 4 earthquakes
+Correlation: Daisetsu Hokkaido-Japan -> 2 earthquakes
+Correlation: Akan Hokkaido-Japan -> 7 earthquakes
+Correlation: Mashu Hokkaido-Japan -> 3 earthquakes
+Correlation: Rausu Hokkaido-Japan -> 3 earthquakes
+Correlation: Kutcharo Hokkaido-Japan -> 3 earthquakes
+Correlation: Shiretoko-Iwo-zan Hokkaido-Japan -> 4 earthquakes
+Correlation: Golovnin Kuril Is -> 4 earthquakes
+Correlation: Smirnov Kuril Is -> 7 earthquakes
+Correlation: Mendeleev Kuril Is -> 8 earthquakes
+Correlation: Tiatia Kuril Is -> 7 earthquakes
+Correlation: Lvinaya Past Kuril Is -> 18 earthquakes
+Correlation: Berutarube Kuril Is -> 20 earthquakes
+Correlation: Atsonupuri Kuril Is -> 11 earthquakes
+Correlation: Bogatyr Ridge Kuril Is -> 6 earthquakes
+Correlation: Unnamed Kuril Is -> 3 earthquakes
+Correlation: Grozny Group Kuril Is -> 2 earthquakes
+Correlation: Baransky Kuril Is -> 3 earthquakes
+Correlation: Golets-Tornyi Group Kuril Is -> 9 earthquakes
+Correlation: Chirip Kuril Is -> 3 earthquakes
+Correlation: Medvezhia Kuril Is -> 7 earthquakes
+Correlation: Demon Kuril Is -> 9 earthquakes
+Correlation: Ivao Group Kuril Is -> 6 earthquakes
+Correlation: Rudakov Kuril Is -> 8 earthquakes
+Correlation: Tri Sestry Kuril Is -> 8 earthquakes
+Correlation: Kolokol Group Kuril Is -> 5 earthquakes
+Correlation: Unnamed Kuril Is -> 8 earthquakes
+Correlation: Chirpoi Kuril Is -> 5 earthquakes
+Correlation: Unnamed Kuril Is -> 9 earthquakes
+Correlation: Milne Kuril Is -> 9 earthquakes
+Correlation: Goriaschaia Sopka Kuril Is -> 8 earthquakes
+Correlation: Zavaritzki Caldera Kuril Is -> 8 earthquakes
+Correlation: Urataman Kuril Is -> 9 earthquakes
+Correlation: Prevo Peak Kuril Is -> 8 earthquakes
+Correlation: Ketoi Kuril Is -> 10 earthquakes
+Correlation: Srednii Kuril Is -> 8 earthquakes
+Correlation: Ushishur Kuril Is -> 11 earthquakes
+Correlation: Rasshua Kuril Is -> 11 earthquakes
+Correlation: Unnamed Kuril Is -> 12 earthquakes
+Correlation: Sarychev Peak Kuril Is -> 12 earthquakes
+Correlation: Raikoke Kuril Is -> 18 earthquakes
+Correlation: Chirinkotan Kuril Is -> 7 earthquakes
+Correlation: Ekarma Kuril Is -> 12 earthquakes
+Correlation: Kuntomintar Kuril Is -> 13 earthquakes
+Correlation: Sinarka Kuril Is -> 10 earthquakes
+Correlation: Kharimkotan Kuril Is -> 14 earthquakes
+Correlation: Tao-Rusyr Caldera Kuril Is -> 7 earthquakes
+Correlation: Nemo Peak Kuril Is -> 8 earthquakes
+Correlation: Shirinki Kuril Is -> 6 earthquakes
+Correlation: Fuss Peak Kuril Is -> 7 earthquakes
+Correlation: Lomonosov Group Kuril Is -> 6 earthquakes
+Correlation: Karpinsky Group Kuril Is -> 7 earthquakes
+Correlation: Chikurachki Kuril Is -> 7 earthquakes
+Correlation: Vernadskii Ridge Kuril Is -> 5 earthquakes
+Correlation: Ebeko Kuril Is -> 5 earthquakes
+Correlation: Alaid Kuril Is -> 3 earthquakes
+Correlation: Mashkovtsev Kamchatka -> 10 earthquakes
+Correlation: Kambalny Kamchatka -> 8 earthquakes
+Correlation: Unnamed Kamchatka -> 7 earthquakes
+Correlation: Diky Greben Kamchatka -> 9 earthquakes
+Correlation: Kurile Lake Kamchatka -> 11 earthquakes
+Correlation: Koshelev Kamchatka -> 8 earthquakes
+Correlation: Ilyinsky Kamchatka -> 12 earthquakes
+Correlation: Kell Kamchatka -> 10 earthquakes
+Correlation: Belenkaya Kamchatka -> 11 earthquakes
+Correlation: Zheltovsky Kamchatka -> 9 earthquakes
+Correlation: Ozernoy Kamchatka -> 8 earthquakes
+Correlation: Plosky Volc Group Kamchatka -> 8 earthquakes
+Correlation: Khodutka Kamchatka -> 9 earthquakes
+Correlation: Piratkovsky Kamchatka -> 10 earthquakes
+Correlation: Olkoviy Kamchatka -> 8 earthquakes
+Correlation: Ostanets Kamchatka -> 8 earthquakes
+Correlation: Otdelniy Kamchatka -> 8 earthquakes
+Correlation: Unnamed Kamchatka -> 7 earthquakes
+Correlation: Tundroviy Kamchatka -> 9 earthquakes
+Correlation: Ksudach Kamchatka -> 9 earthquakes
+Correlation: Golaya Kamchatka -> 10 earthquakes
+Correlation: Asacha Kamchatka -> 9 earthquakes
+Correlation: Visokiy Kamchatka -> 7 earthquakes
+Correlation: Mutnovsky Kamchatka -> 8 earthquakes
+Correlation: Gorely Kamchatka -> 6 earthquakes
+Correlation: Unnamed Kamchatka -> 2 earthquakes
+Correlation: Tolmachev Dol Kamchatka -> 6 earthquakes
+Correlation: Vilyuchik Kamchatka -> 9 earthquakes
+Correlation: Barkhatnaya Sopka Kamchatka -> 6 earthquakes
+Correlation: Unnamed Kamchatka -> 7 earthquakes
+Correlation: Unnamed Kamchatka -> 5 earthquakes
+Correlation: Bolshe-Bannaya Kamchatka -> 4 earthquakes
+Correlation: Opala Kamchatka -> 4 earthquakes
+Correlation: Koryaksky Kamchatka -> 8 earthquakes
+Correlation: Avachinsky Kamchatka -> 7 earthquakes
+Correlation: Dzenzursky Kamchatka -> 13 earthquakes
+Correlation: Veer Kamchatka -> 8 earthquakes
+Correlation: Kostakan Kamchatka -> 2 earthquakes
+Correlation: Bakening Kamchatka -> 1 earthquakes
+Correlation: Zavaritsky Kamchatka -> 3 earthquakes
+Correlation: Akademia Nauk Kamchatka -> 18 earthquakes
+Correlation: Zhupanovsky Kamchatka -> 12 earthquakes
+Correlation: Karymsky Kamchatka -> 17 earthquakes
+Correlation: Maly Semiachik Kamchatka -> 15 earthquakes
+Correlation: Bolshoi Semiachik Kamchatka -> 6 earthquakes
+Correlation: Taunshits Kamchatka -> 5 earthquakes
+Correlation: Uzon Kamchatka -> 7 earthquakes
+Correlation: Kikhpinych Kamchatka -> 6 earthquakes
+Correlation: Krasheninnikov Kamchatka -> 5 earthquakes
+Correlation: Schmidt Kamchatka -> 2 earthquakes
+Correlation: Kronotsky Kamchatka -> 5 earthquakes
+Correlation: Gamchen Kamchatka -> 2 earthquakes
+Correlation: Vysoky Kamchatka -> 2 earthquakes
+Correlation: Komarov Kamchatka -> 2 earthquakes
+Correlation: Unnamed Kamchatka -> 11 earthquakes
+Correlation: Kizimen Kamchatka -> 2 earthquakes
+Correlation: Udina Kamchatka -> 6 earthquakes
+Correlation: Zimina Kamchatka -> 6 earthquakes
+Correlation: Tolbachik Kamchatka -> 6 earthquakes
+Correlation: Kamen Kamchatka -> 7 earthquakes
+Correlation: Bezymianny Kamchatka -> 7 earthquakes
+Correlation: Ushkovsky Kamchatka -> 2 earthquakes
+Correlation: Kliuchevskoi Kamchatka -> 6 earthquakes
+Correlation: Piip Kamchatka-E of -> 5 earthquakes
+Correlation: Shiveluch Kamchatka -> 6 earthquakes
+Correlation: Udokan Plateau Russia-SE -> 1 earthquakes
+Correlation: Khanuy Gol Mongolia -> 1 earthquakes
+Correlation: Unnamed China-W -> 1 earthquakes
+Correlation: Buldir Aleutian Is -> 3 earthquakes
+Correlation: Kiska Aleutian Is -> 2 earthquakes
+Correlation: Segula Aleutian Is -> 7 earthquakes
+Correlation: Davidof Aleutian Is -> 10 earthquakes
+Correlation: Little Sitkin Aleutian Is -> 10 earthquakes
+Correlation: Semisopochnoi Aleutian Is -> 8 earthquakes
+Correlation: Gareloi Aleutian Is -> 4 earthquakes
+Correlation: Tanaga Aleutian Is -> 10 earthquakes
+Correlation: Takawangha Aleutian Is -> 11 earthquakes
+Correlation: Bobrof Aleutian Is -> 11 earthquakes
+Correlation: Kanaga Aleutian Is -> 15 earthquakes
+Correlation: Moffett Aleutian Is -> 19 earthquakes
+Correlation: Adagdak Aleutian Is -> 17 earthquakes
+Correlation: Great Sitkin Aleutian Is -> 18 earthquakes
+Correlation: Kasatochi Aleutian Is -> 3 earthquakes
+Correlation: Koniuji Aleutian Is -> 11 earthquakes
+Correlation: Sergief Aleutian Is -> 21 earthquakes
+Correlation: Atka Aleutian Is -> 7 earthquakes
+Correlation: Seguam Aleutian Is -> 2 earthquakes
+Correlation: Amukta Aleutian Is -> 9 earthquakes
+Correlation: Chagulak Aleutian Is -> 9 earthquakes
+Correlation: Yunaska Aleutian Is -> 8 earthquakes
+Correlation: Herbert Aleutian Is -> 7 earthquakes
+Correlation: Carlisle Aleutian Is -> 10 earthquakes
+Correlation: Cleveland Aleutian Is -> 9 earthquakes
+Correlation: Uliaga Aleutian Is -> 10 earthquakes
+Correlation: Kagamil Aleutian Is -> 10 earthquakes
+Correlation: Vsevidof Aleutian Is -> 5 earthquakes
+Correlation: Recheschnoi Aleutian Is -> 4 earthquakes
+Correlation: Bogoslof Aleutian Is -> 3 earthquakes
+Correlation: Makushin Aleutian Is -> 5 earthquakes
+Correlation: Table Top-Wide Bay Aleutian Is -> 5 earthquakes
+Correlation: Akutan Aleutian Is -> 8 earthquakes
+Correlation: Westdahl Aleutian Is -> 2 earthquakes
+Correlation: Fisher Aleutian Is -> 2 earthquakes
+Correlation: Shishaldin Aleutian Is -> 1 earthquakes
+Correlation: Isanotski Aleutian Is -> 2 earthquakes
+Correlation: Roundtop Aleutian Is -> 1 earthquakes
+Correlation: Amak Aleutian Is -> 1 earthquakes
+Correlation: Kialagvik Alaska Peninsula -> 1 earthquakes
+Correlation: Ugashik-Peulik Alaska Peninsula -> 1 earthquakes
+Correlation: Ukinrek Maars Alaska Peninsula -> 3 earthquakes
+Correlation: Unnamed Alaska Peninsula -> 1 earthquakes
+Correlation: Martin Alaska Peninsula -> 2 earthquakes
+Correlation: Mageik Alaska Peninsula -> 2 earthquakes
+Correlation: Trident Alaska Peninsula -> 2 earthquakes
+Correlation: Katmai Alaska Peninsula -> 3 earthquakes
+Correlation: Novarupta Alaska Peninsula -> 2 earthquakes
+Correlation: Griggs Alaska Peninsula -> 3 earthquakes
+Correlation: Snowy Mountain Alaska Peninsula -> 4 earthquakes
+Correlation: Denison Alaska Peninsula -> 4 earthquakes
+Correlation: Steller Alaska Peninsula -> 3 earthquakes
+Correlation: Kukak Alaska Peninsula -> 3 earthquakes
+Correlation: Kaguyak Alaska Peninsula -> 6 earthquakes
+Correlation: Fourpeaked Alaska Peninsula -> 2 earthquakes
+Correlation: Douglas Alaska Peninsula -> 3 earthquakes
+Correlation: Augustine Alaska-SW -> 2 earthquakes
+Correlation: Iliamna Alaska-SW -> 21 earthquakes
+Correlation: Redoubt Alaska-SW -> 9 earthquakes
+Correlation: Spurr Alaska-SW -> 2 earthquakes
+Correlation: Hayes Alaska-SW -> 2 earthquakes
+Correlation: Churchill Alaska-E -> 1 earthquakes
+Correlation: Bridge River Cones Canada -> 1 earthquakes
+Correlation: Meager Canada -> 1 earthquakes
+Correlation: Rainier US-Washington -> 1 earthquakes
+Correlation: St. Helens US-Washington -> 3 earthquakes
+Correlation: Shasta US-California -> 1 earthquakes
+Correlation: Medicine Lake US-California -> 1 earthquakes
+Correlation: Mono Lake Volc Field US-California -> 3 earthquakes
+Correlation: Mono Craters US-California -> 5 earthquakes
+Correlation: Inyo Craters US-California -> 10 earthquakes
+Correlation: Long Valley US-California -> 13 earthquakes
+Correlation: Red Cones US-California -> 11 earthquakes
+Correlation: Ubehebe Craters US-California -> 2 earthquakes
+Correlation: Coso Volc Field US-California -> 2 earthquakes
+Correlation: Lavic Lake US-California -> 2 earthquakes
+Correlation: Yellowstone US-Wyoming -> 2 earthquakes
+Correlation: Santa Clara US-Utah -> 1 earthquakes
+Correlation: Cleft Segment Pacific-NE -> 1 earthquakes
+Correlation: North Gorda Ridge Pacific-NE -> 3 earthquakes
+Correlation: Loihi Hawaiian Is -> 1 earthquakes
+Correlation: Kilauea Hawaiian Is -> 19 earthquakes
+Correlation: Mauna Loa Hawaiian Is -> 14 earthquakes
+Correlation: Mauna Kea Hawaiian Is -> 2 earthquakes
+Correlation: Hualalai Hawaiian Is -> 5 earthquakes
+Correlation: Haleakala Hawaiian Is -> 1 earthquakes
+Correlation: Unnamed Pacific-E -> 1 earthquakes
+Correlation: Unnamed Pacific-S -> 10 earthquakes
+Correlation: Prieto, Cerro M�xico -> 1 earthquakes
+Correlation: San Luis, Isla M�xico -> 1 earthquakes
+Correlation: Coronado M�xico -> 2 earthquakes
+Correlation: Tres V�rgenes M�xico -> 4 earthquakes
+Correlation: Colima M�xico -> 3 earthquakes
+Correlation: Toluca, Nevado de M�xico -> 1 earthquakes
+Correlation: Chich�n, El M�xico -> 1 earthquakes
+Correlation: Tacan� M�xico -> 2 earthquakes
+Correlation: Tajumulco Guatemala -> 2 earthquakes
+Correlation: Santa Mar�a Guatemala -> 18 earthquakes
+Correlation: Almolonga Guatemala -> 12 earthquakes
+Correlation: Santo Tom�s Guatemala -> 21 earthquakes
+Correlation: Atitl�n Guatemala -> 19 earthquakes
+Correlation: Tolim�n Guatemala -> 18 earthquakes
+Correlation: Acatenango Guatemala -> 12 earthquakes
+Correlation: Fuego Guatemala -> 13 earthquakes
+Correlation: Agua Guatemala -> 8 earthquakes
+Correlation: Cuilapa-Barbarena Guatemala -> 7 earthquakes
+Correlation: Pacaya Guatemala -> 7 earthquakes
+Correlation: Tecuamburro Guatemala -> 8 earthquakes
+Correlation: Moyuta Guatemala -> 5 earthquakes
+Correlation: Flores Guatemala -> 4 earthquakes
+Correlation: Tahual Guatemala -> 3 earthquakes
+Correlation: Santiago, Cerro Guatemala -> 3 earthquakes
+Correlation: Suchit�n Guatemala -> 2 earthquakes
+Correlation: Chingo Guatemala -> 2 earthquakes
+Correlation: Ixtepeque Guatemala -> 2 earthquakes
+Correlation: Ipala Guatemala -> 1 earthquakes
+Correlation: Quezaltepeque Guatemala -> 2 earthquakes
+Correlation: San Diego El Salvador -> 1 earthquakes
+Correlation: Sing�il, Cerro El Salvador -> 3 earthquakes
+Correlation: Apaneca Range El Salvador -> 2 earthquakes
+Correlation: Santa Ana El Salvador -> 3 earthquakes
+Correlation: Izalco El Salvador -> 3 earthquakes
+Correlation: Coatepeque Caldera El Salvador -> 3 earthquakes
+Correlation: Cinotepeque, Cerro El Salvador -> 3 earthquakes
+Correlation: Guazapa El Salvador -> 5 earthquakes
+Correlation: San Salvador El Salvador -> 4 earthquakes
+Correlation: Ilopango El Salvador -> 11 earthquakes
+Correlation: Apastepeque Field El Salvador -> 7 earthquakes
+Correlation: Taburete El Salvador -> 4 earthquakes
+Correlation: San Vicente El Salvador -> 10 earthquakes
+Correlation: Usulut�n El Salvador -> 4 earthquakes
+Correlation: Tigre, El El Salvador -> 2 earthquakes
+Correlation: Tecapa El Salvador -> 2 earthquakes
+Correlation: Chinameca El Salvador -> 3 earthquakes
+Correlation: Aramuaca, Laguna El Salvador -> 1 earthquakes
+Correlation: San Miguel El Salvador -> 3 earthquakes
+Correlation: Conchagua El Salvador -> 7 earthquakes
+Correlation: Conchag�ita El Salvador -> 7 earthquakes
+Correlation: Tigre, Isla el Honduras -> 7 earthquakes
+Correlation: Zacate Grande, Isla Honduras -> 5 earthquakes
+Correlation: Utila Island Honduras -> 2 earthquakes
+Correlation: Cosig�ina Nicaragua -> 10 earthquakes
+Correlation: San Crist�bal Nicaragua -> 9 earthquakes
+Correlation: Telica Nicaragua -> 8 earthquakes
+Correlation: Rota Nicaragua -> 7 earthquakes
+Correlation: Negro, Cerro Nicaragua -> 8 earthquakes
+Correlation: Pilas, Las Nicaragua -> 8 earthquakes
+Correlation: Apoyeque Nicaragua -> 8 earthquakes
+Correlation: Nejapa-Miraflores Nicaragua -> 9 earthquakes
+Correlation: Momotombo Nicaragua -> 9 earthquakes
+Correlation: Granada Nicaragua -> 8 earthquakes
+Correlation: Masaya Nicaragua -> 8 earthquakes
+Correlation: Zapatera Nicaragua -> 9 earthquakes
+Correlation: Mombacho Nicaragua -> 9 earthquakes
+Correlation: Concepci�n Nicaragua -> 9 earthquakes
+Correlation: Maderas Nicaragua -> 4 earthquakes
+Correlation: Ciguatepe, Cerro el Nicaragua -> 5 earthquakes
+Correlation: Lajas, Las Nicaragua -> 1 earthquakes
+Correlation: Oros� Costa Rica -> 4 earthquakes
+Correlation: Rinc�n de la Vieja Costa Rica -> 6 earthquakes
+Correlation: Tenorio Costa Rica -> 5 earthquakes
+Correlation: Tilar�n, Cerro Costa Rica -> 7 earthquakes
+Correlation: Arenal Costa Rica -> 1 earthquakes
+Correlation: Platanar Costa Rica -> 3 earthquakes
+Correlation: Miravalles Costa Rica -> 6 earthquakes
+Correlation: Po�s Costa Rica -> 4 earthquakes
+Correlation: Barva Costa Rica -> 4 earthquakes
+Correlation: Iraz� Costa Rica -> 4 earthquakes
+Correlation: Turrialba Costa Rica -> 4 earthquakes
+Correlation: Bravo, Cerro Colombia -> 2 earthquakes
+Correlation: Santa Isabel Colombia -> 4 earthquakes
+Correlation: Ruiz, Nevado del Colombia -> 3 earthquakes
+Correlation: Tolima, Nevado del Colombia -> 4 earthquakes
+Correlation: Mach�n Colombia -> 7 earthquakes
+Correlation: Huila, Nevado del Colombia -> 1 earthquakes
+Correlation: Sotar� Colombia -> 1 earthquakes
+Correlation: Petacas Colombia -> 1 earthquakes
+Correlation: Purac� Colombia -> 1 earthquakes
+Correlation: Do�a Juana Colombia -> 1 earthquakes
+Correlation: Cayambe Ecuador -> 4 earthquakes
+Correlation: Pululagua Ecuador -> 2 earthquakes
+Correlation: Reventador Ecuador -> 6 earthquakes
+Correlation: Atacazo Ecuador -> 4 earthquakes
+Correlation: Chacana Ecuador -> 1 earthquakes
+Correlation: Guagua Pichincha Ecuador -> 2 earthquakes
+Correlation: Pan de Az�car Ecuador -> 4 earthquakes
+Correlation: Illiniza Ecuador -> 3 earthquakes
+Correlation: Sumaco Ecuador -> 3 earthquakes
+Correlation: Cotopaxi Ecuador -> 3 earthquakes
+Correlation: Quilotoa Ecuador -> 5 earthquakes
+Correlation: Chimborazo Ecuador -> 1 earthquakes
+Correlation: Tulabug Ecuador -> 1 earthquakes
+Correlation: Tungurahua Ecuador -> 1 earthquakes
+Correlation: Sangay Ecuador -> 5 earthquakes
+Correlation: Ecuador Gal�pagos -> 9 earthquakes
+Correlation: Fernandina Gal�pagos -> 19 earthquakes
+Correlation: Wolf Gal�pagos -> 2 earthquakes
+Correlation: Darwin Gal�pagos -> 9 earthquakes
+Correlation: Alcedo Gal�pagos -> 4 earthquakes
+Correlation: Firura, Nevados Per� -> 4 earthquakes
+Correlation: Coropuna Per� -> 8 earthquakes
+Correlation: Andahua Valley Per� -> 6 earthquakes
+Correlation: Sabancaya Per� -> 8 earthquakes
+Correlation: Quimsachata Per� -> 2 earthquakes
+Correlation: Chachani, Nevado Per� -> 7 earthquakes
+Correlation: Misti, El Per� -> 8 earthquakes
+Correlation: Ubinas Per� -> 6 earthquakes
+Correlation: Ticsani Per� -> 3 earthquakes
+Correlation: Huaynaputina Per� -> 4 earthquakes
+Correlation: Tutupaca Per� -> 4 earthquakes
+Correlation: Yucamane Per� -> 10 earthquakes
+Correlation: Casiri, Nevados Per� -> 10 earthquakes
+Correlation: Lexone Chile-N -> 16 earthquakes
+Correlation: Anallajsi, Nevado Bolivia -> 3 earthquakes
+Correlation: Patilla Pata Bolivia -> 9 earthquakes
+Correlation: Sajama, Nevado del Bolivia -> 3 earthquakes
+Correlation: Parinacota Chile-N -> 18 earthquakes
+Correlation: Taapac� Chile-N -> 18 earthquakes
+Correlation: Tacora Chile-N -> 10 earthquakes
+Correlation: Acotango Chile-N -> 13 earthquakes
+Correlation: Macizo de Pacuni Bolivia -> 3 earthquakes
+Correlation: Macizo de Larancagua Bolivia -> 1 earthquakes
+Correlation: Sacabaya Bolivia -> 4 earthquakes
+Correlation: Arintica Chile-N -> 17 earthquakes
+Correlation: Guallatiri Chile-N -> 19 earthquakes
+Correlation: Cabaray Chile-N -> 5 earthquakes
+Correlation: Tata Sabaya Bolivia -> 1 earthquakes
+Correlation: Puchuldiza Chile-N -> 25 earthquakes
+Correlation: Pi�a, Cerro Chile-N -> 9 earthquakes
+Correlation: Jayu Khota, Laguna Bolivia -> 3 earthquakes
+Correlation: Nuevo Mundo Bolivia -> 2 earthquakes
+Correlation: Isluga Chile-N -> 12 earthquakes
+Correlation: Unnamed Chile-N -> 28 earthquakes
+Correlation: Pampa Luxsar Bolivia -> 6 earthquakes
+Correlation: Irruputuncu Chile-N -> 20 earthquakes
+Correlation: Aucanquilcha Chile-N -> 43 earthquakes
+Correlation: San Agust�n, Cerro Bolivia -> 4 earthquakes
+Correlation: Olca-Paruma Chile-N -> 24 earthquakes
+Correlation: Yumia, Cerro Bolivia -> 3 earthquakes
+Correlation: Escala Bolivia -> 4 earthquakes
+Correlation: Moiro, Cerro Bolivia -> 5 earthquakes
+Correlation: Azufre, Cerro del Chile-N -> 35 earthquakes
+Correlation: Ollag�e Chile-N -> 38 earthquakes
+Correlation: Paniri Chile-N -> 23 earthquakes
+Correlation: Leon, Cerro del Chile-N -> 7 earthquakes
+Correlation: Jorcada Chile-N -> 3 earthquakes
+Correlation: Quetena Bolivia -> 6 earthquakes
+Correlation: Uturuncu Bolivia -> 7 earthquakes
+Correlation: San Pedro Chile-N -> 30 earthquakes
+Correlation: Volc�n, El Chile-N -> 1 earthquakes
+Correlation: Tocorpuri, Cerros de Chile-N -> 1 earthquakes
+Correlation: Tatio, El Chile-N -> 2 earthquakes
+Correlation: Sairecabur Chile-N -> 1 earthquakes
+Correlation: Licancabur Chile-N -> 2 earthquakes
+Correlation: Purico Complex Chile-N -> 2 earthquakes
+Correlation: Colachi Chile-N -> 6 earthquakes
+Correlation: Verde, Laguna Chile-N -> 9 earthquakes
+Correlation: Acamarachi Chile-N -> 8 earthquakes
+Correlation: Chiliques Chile-N -> 16 earthquakes
+Correlation: Putana Chile-N -> 1 earthquakes
+Correlation: Cord�n de Puntas Negras Chile-N -> 11 earthquakes
+Correlation: Mi�iques Chile-N -> 13 earthquakes
+Correlation: Tujle, Cerro Chile-N -> 16 earthquakes
+Correlation: Caichinque Chile-N -> 13 earthquakes
+Correlation: Tilocalar Chile-N -> 10 earthquakes
+Correlation: Negrillar, El Chile-N -> 7 earthquakes
+Correlation: P�lar Chile-N -> 11 earthquakes
+Correlation: Negrillar, La Chile-N -> 5 earthquakes
+Correlation: Socompa Chile-N -> 5 earthquakes
+Correlation: Lascar Chile-N -> 12 earthquakes
+Correlation: Escorial, Cerro Chile-N -> 5 earthquakes
+Correlation: Llullaillaco Chile-N -> 7 earthquakes
+Correlation: Cord�n del Azufre Chile-N -> 3 earthquakes
+Correlation: Bayo, Cerro Chile-N -> 1 earthquakes
+Correlation: Incahuasi, Nevado de Chile-N -> 1 earthquakes
+Correlation: Lastarria Chile-N -> 4 earthquakes
+Correlation: Ojos del Salado, Nevados Chile-N -> 1 earthquakes
+Correlation: Copiap� Chile-N -> 3 earthquakes
+Correlation: Tuzgle, Cerro Argentina -> 16 earthquakes
+Correlation: Aracar Argentina -> 11 earthquakes
+Correlation: Unnamed Argentina -> 4 earthquakes
+Correlation: Antofalla Argentina -> 1 earthquakes
+Correlation: Antofagasta de la Sierra Argentina -> 3 earthquakes
+Correlation: Robledo Argentina -> 2 earthquakes
+Correlation: Tipas Argentina -> 1 earthquakes
+Correlation: Tupungatito Chile-C -> 3 earthquakes
+Correlation: Maipo Chile-C -> 6 earthquakes
+Correlation: Palomo Chile-C -> 3 earthquakes
+Correlation: Atuel, Caldera del Argentina -> 3 earthquakes
+Correlation: Risco Plateado Argentina -> 2 earthquakes
+Correlation: San Jos� Chile-C -> 6 earthquakes
+Correlation: Tinguiririca Chile-C -> 2 earthquakes
+Correlation: Planch�n-Peteroa Chile-C -> 3 earthquakes
+Correlation: Descabezado Grande Chile-C -> 2 earthquakes
+Correlation: San Pedro-Pellado Chile-C -> 1 earthquakes
+Correlation: Longav�, Nevado de Chile-C -> 3 earthquakes
+Correlation: Blancas, Lomas Chile-C -> 1 earthquakes
+Correlation: Resago Chile-C -> 1 earthquakes
+Correlation: Domuyo Argentina -> 2 earthquakes
+Correlation: Azul, Cerro Chile-C -> 1 earthquakes
+Correlation: Callaqui Chile-C -> 1 earthquakes
+Correlation: Mari�aqui, Laguna Chile-C -> 3 earthquakes
+Correlation: Tolguaca Chile-C -> 1 earthquakes
+Correlation: Copahu� Chile-C -> 1 earthquakes
+Correlation: Chapulul, Cerro Chile-C -> 3 earthquakes
+Correlation: Nevada, Sierra Chile-C -> 1 earthquakes
+Correlation: Lonquimay Chile-C -> 1 earthquakes
+Correlation: Sollipulli Chile-C -> 1 earthquakes
+Correlation: Caburgua-Huelemolle Chile-C -> 1 earthquakes
+Correlation: Huanquihue Group Argentina -> 1 earthquakes
+Correlation: Mocho-Choshuenco Chile-C -> 1 earthquakes
+Correlation: Cord�n Caulle Chile-C -> 1 earthquakes
+Correlation: Carr�n-Los Venados Chile-C -> 1 earthquakes
+Correlation: Osorno Chile-S -> 1 earthquakes
+Correlation: Cayutu�-La Viguer�a Chile-S -> 1 earthquakes
+Correlation: Cuernos del Diablo Chile-S -> 1 earthquakes
+Correlation: Yate Chile-S -> 1 earthquakes
+Correlation: Hornopir�n Chile-S -> 1 earthquakes
+Correlation: Hualiaque Chile-S -> 1 earthquakes
+Correlation: Calbuco Chile-S -> 1 earthquakes
+Correlation: Hudson, Cerro Chile-S -> 8 earthquakes
+Correlation: Saba W Indies -> 1 earthquakes
+Correlation: Quill, The W Indies -> 1 earthquakes
+Correlation: Nevis Peak W Indies -> 2 earthquakes
+Correlation: Soufri�re Hills W Indies -> 4 earthquakes
+Correlation: Soufri�re Guadeloupe W Indies -> 1 earthquakes
+Correlation: Diablotins, Morne W Indies -> 2 earthquakes
+Correlation: Watt, Morne W Indies -> 3 earthquakes
+Correlation: Trois Pitons, Morne W Indies -> 3 earthquakes
+Correlation: Plat Pays, Morne W Indies -> 3 earthquakes
+Correlation: Pel�e W Indies -> 1 earthquakes
+Correlation: Reykjanes Iceland-SW -> 3 earthquakes
+Correlation: Kr�suv�k Iceland-SW -> 4 earthquakes
+Correlation: Brennisteinsfj�ll Iceland-SW -> 4 earthquakes
+Correlation: Hengill Iceland-SW -> 3 earthquakes
+Correlation: Gr�msnes Iceland-SW -> 3 earthquakes
+Correlation: Prestahnukur Iceland-SW -> 3 earthquakes
+Correlation: Eyjafj�ll Iceland-S -> 2 earthquakes
+Correlation: Katla Iceland-S -> 2 earthquakes
+Correlation: Tindfjallaj�kull Iceland-S -> 3 earthquakes
+Correlation: Torfaj�kull Iceland-S -> 2 earthquakes
+Correlation: Vatnafj�ll Iceland-S -> 2 earthquakes
+Correlation: Hekla Iceland-S -> 2 earthquakes
+Correlation: Gr�msv�tn Iceland-NE -> 14 earthquakes
+Correlation: Loki-F�grufj�ll Iceland-NE -> 14 earthquakes
+Correlation: B�rdarbunga Iceland-NE -> 14 earthquakes
+Correlation: Tungnafellsj�kull Iceland-NE -> 14 earthquakes
+Correlation: Kverkfj�ll Iceland-NE -> 10 earthquakes
+Correlation: Theistareykjarbunga Iceland -> 3 earthquakes
+Correlation: Tj�rnes Fracture Zone Iceland-N of -> 4 earthquakes
+Correlation: Kolbeinsey Ridge Iceland-N of -> 2 earthquakes
+Correlation: Jan Mayen Atlantic-N-Jan Mayen -> 8 earthquakes
+Correlation: Fayal Azores -> 3 earthquakes
+Correlation: Pico Azores -> 3 earthquakes
+Correlation: San Jorge Azores -> 2 earthquakes
+Correlation: Graciosa Azores -> 2 earthquakes
+Correlation: Terceira Azores -> 1 earthquakes
+Correlation: Don Joao de Castro Bank Azores -> 4 earthquakes
+Correlation: Sete Cidades Azores -> 1 earthquakes
+Correlation: Furnas Azores -> 1 earthquakes
+Correlation: Unnamed Atlantic-C -> 1 earthquakes
+Correlation: Deception Island Antarctica -> 2 earthquakes
+Correlation: Bridgeman Island Antarctica -> 3 earthquakes
+Correlation: Thule Islands Antarctica -> 12 earthquakes
+Correlation: Montagu Island Antarctica -> 14 earthquakes
+Correlation: Bristol Island Antarctica -> 18 earthquakes
+Correlation: Michael Antarctica -> 4 earthquakes
+Correlation: Candlemas Island Antarctica -> 12 earthquakes
+Correlation: Hodson Antarctica -> 32 earthquakes
+Correlation: Leskov Island Antarctica -> 3 earthquakes
+Correlation: Zavodovski Antarctica -> 178 earthquakes
+Correlation: Protector Shoal Antarctica -> 130 earthquakes
+
+===EXPERIMENT RESULT===
+Volcanoes: 1535
+Earthquakes: 44254
+Max chosen volcano diameter: 40000.0m
+Number of volcanoes depening on earthquakes: 968
+Dependency ratio: Approx 63.0%
