@@ -30,3 +30,14 @@ Running the application:
 mvn exec:java -Dexec.mainClass=org.tuwien.experiment.App -Dexec.args="volcanoes.txt earthquakes.txt 40000"
 ```
 It is assumed that `volcanoes.txt` and `earthquakes.txt` were already downloaded.
+
+## The experiment
+![alt tag](https://github.com/enrimilan/dp-experiment/blob/master/doc/diagram.png)
+
+## Experiment results
+### Earthquakes
+![alt tag](https://github.com/enrimilan/dp-experiment/blob/master/doc/pmf_files/home/enrimilan/Desktop/dp-experiment/scripts/earthquakes.png)
+### Volcanoes
+![alt tag](https://github.com/enrimilan/dp-experiment/blob/master/doc/pmf_files/home/enrimilan/Desktop/dp-experiment/scripts/volcanoes.png)
+### Relation between earthquakes and volcanoes
+![alt tag](https://github.com/enrimilan/dp-experiment/blob/master/doc/pmf_files/home/enrimilan/Desktop/dp-experiment/scripts/experiment_result.png)
